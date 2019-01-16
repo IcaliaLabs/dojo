@@ -1,15 +1,9 @@
-# Ruby Basics
+# Dojo Traning Plan - Ruby Program
 
-
-
-This training guides every step an Icalier developer should follow when entering to the company, it is a compilation of some ruby basics, along with good practices, and some other cool stuff.
-
-
+## Week One - Ruby Training
+[This GitHub repository]("https://github.com/IcaliaLabs/ruby-training") contains a full week's worth of lessons and practice exercises that cover **Week One**'s training syllabus. Each directory within contains resources (files, documents and relevant links) for the 
 
 ## Table of contents
-
-
-
 * [01 - Start the engine](01)
 * [02 - Down to first](02)
 * [03 - Up to speed up](03)
@@ -19,14 +13,16 @@ This training guides every step an Icalier developer should follow when entering
 * [07 - Feel the heat](07)
 * [08 - Hear the engine](08)
 
+## Setting Up
+
+Before we jump into Ruby, we must first set up our environment. In order to be able to 
+
 
 
 ## Things to keep in mind about Ruby
 
-
-
 * It is an interpreted programming language
-* It is not highly typed
+* It is not strongly typed
 * It has an interactive console through the `irb` command
 * Its philosophy is to keep the developer **happy**
 * Everything in Ruby is an **object**

@@ -1,12 +1,4 @@
-#Dojo Traning Plan: Week One
-## Week One - Ruby Training
-[This GitHub repository]("https://github.com/IcaliaLabs/ruby-training") contains a full week's worth of lessons and practice exercises that cover **Week One**'s training syllabus. Each directory within contains resources (files, documents and relevant links) for the 
-
-## Setting Up
-
-## Day One
-
-Before we jump into Ruby, we must first set up our environment. In order to be able to 
+# Dojo Training Plan: Day One
 
 **Lesson:** Extensive introduction into the basic syntactical, semantical and morphological aspects of the language.
 
@@ -31,7 +23,8 @@ Each trainee will practice the previously covered theory by writing a Ruby scrip
 	``` 
 	developers = [{name: "Walter", age: 25},
 					 {name: "Abraham", age: 29}]
-	``` ***(age must be an integer)***
+	```
+***(age must be an integer)***
 3. Add a skills array to each developer in the hash.
 4. Add a friends key to each developer for which the value is a hash describing each friend (only store their name).
 5. Print the developer profile matching the following format:
