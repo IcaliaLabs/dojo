@@ -1,4 +1,4 @@
-# Dojo Training Plan: Day One
+# Dojo Ruby Training Plan: Day One
 
 **Lesson:** Extensive introduction into the basic syntactical, semantical and morphological aspects of the language.
 
@@ -19,12 +19,11 @@ Each trainee will practice the previously covered theory by writing a Ruby scrip
 
 1. [Prompt the user]( http://ruby-doc.org/docs/ruby-doc-bundle/Tutorial/part_02/user_input.html) for the name and age of each of the developers in the room / intern pod. Strip trailing chars of input, look for the appropriate function [here](http://ruby-doc.org/core-2.4.1/String.html).
 
-2. Store each developer in an array of hashes, e.g:
+2. Store each developer in an array of hashes ***(age must be an integer)*** , e.g:
 	``` 
-	developers = [{name: "Walter", age: 25},
-					 {name: "Abraham", age: 29}]
+	developers = [{ name: "Walter", age: 25 }, { name: "Abraham", age: 29 }]
 	```
-***(age must be an integer)***
+
 3. Add a skills array to each developer in the hash.
 4. Add a friends key to each developer for which the value is a hash describing each friend (only store their name).
 5. Print the developer profile matching the following format:
@@ -44,6 +43,9 @@ Complete the following sections of the [Codecademy Learn Ruby course](https://ww
 
 ## Useful Links
 
-+ 
++ [Official Ruby Language Doumentation](https://ruby-doc.org/core-2.6/)
++ [Ruby Guides](https://www.rubyguides.com/)
++ [Codecademy Ruby Course](https://www.codecademy.com/courses/learn-ruby)
++ [TryRuby: Learn programming with Ruby](https://ruby.github.io/TryRuby/)
 
 
