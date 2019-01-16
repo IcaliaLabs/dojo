@@ -1,0 +1,15 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    github-markup (1.6.2)
+    rack (2.0.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  github-markup
+  rack
+
+BUNDLED WITH
+   1.14.5
