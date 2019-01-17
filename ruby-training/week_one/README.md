@@ -1,7 +1,7 @@
-# Dojo Traning Plan - Ruby Program
+# Dojo Traning Plan - Week One
 
 ## Week One - Ruby Training
-[This GitHub repository]("https://github.com/IcaliaLabs/ruby-training") contains a full week's worth of lessons and practice exercises that cover **Week One**'s training syllabus. Each directory within contains resources (files, documents and relevant links) for the 
+This directory contains a full week's worth of lessons, practice exercises and relevant resources that cover **Week One**'s training syllabus. Each numbered subdirectory contains resources (files, documents and relevant links) for the respective training day (starting at 01).
 
 ## Table of contents
 * [01 - Start the engine](01)
@@ -15,7 +15,9 @@
 
 ## Setting Up
 
-Before we jump into Ruby, we must first set up our environment. In order to be able to 
+Before we jump into Ruby, we must first set up our environment. In order to be able to write and execute Ruby scripts and programs, we must first have an updated version of Ruby installed.
+
+Trainees using macOS will find that Ruby is installed by default on their machines. Other OS users must install both Ruby and a Ruby version manager (Icalia Labs strongly recommends you use [rbenv](https://github.com/rbenv/rbenv))
 
 
 

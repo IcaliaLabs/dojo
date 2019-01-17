@@ -1,6 +1,7 @@
 # Dojo Ruby Training Plan: Day One
 
-## Trainee Objectives
+## Lesson Objectives
+
 After this training stage the trainee should be able to: 
 + Correctly utilize the basic syntax and semantics of the Ruby language
 + Understand the meaning of the phrase **"Everything in Ruby is an Object"**
@@ -55,6 +56,7 @@ Complete the following sections of the [Codecademy Learn Ruby course](https://ww
 + [Official Ruby Language Doumentation](https://ruby-doc.org/core-2.6/)
 + [Codecademy Ruby Course](https://www.codecademy.com/courses/learn-ruby)
 + [TryRuby: Learn programming with Ruby](https://ruby.github.io/TryRuby/)
++ [Icalia Labs Internal Ruby Guides](https://github.com/IcaliaLabs/guides/tree/master/stack/ruby)
 + [Ruby Guides](https://www.rubyguides.com/)
 
 
