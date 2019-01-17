@@ -1,17 +1,18 @@
-# Dojo Traning Plan - Week One
+# Dojo Ruby Traning Plan - Week One
 
-## Week One - Ruby Training
+## Week Overview
 This directory contains a full week's worth of lessons, practice exercises and relevant resources that cover **Week One**'s training syllabus. Each numbered subdirectory contains resources (files, documents and relevant links) for the respective training day (starting at 01).
 
 ## Table of contents
-* [01 - Start the engine](01)
-* [02 - Down to first](02)
-* [03 - Up to speed up](03)
-* [04 - Hit it grandma](04)
-* [05 - Emergency break](05)
-* [06 - Get to second](06)
-* [07 - Feel the heat](07)
-* [08 - Hear the engine](08)
+* [00 - Setting Up](#markdown-header-setting-up)
+* [01 - Introduction to the Ruby Language](01)
+* [02 - Functions and Methods in Ruby](02)
+* [03 - Data and Behavior Encapsulation in Ruby](03)
+* [04 - Ruby's Libraries: Working with Gems](04)
+* [05 - IO: Working with Files in Ruby](05)
+* [06 - Web Scraping in Ruby](06)
+* [07 - Serving Web Pages with Ruby using Rack and ERB](07)
+* [08 - Your first Blog Ruby Web App](08)
 
 ## Setting Up
 
