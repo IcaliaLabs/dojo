@@ -1,6 +1,15 @@
 # Dojo Ruby Training Plan: Day One
 
-**Lesson:** Extensive introduction into the basic syntactical, semantical and morphological aspects of the language.
+## Trainee Objectives
+After this training stage the trainee should be able to: 
++ Correctly utilize the basic syntax and semantics of the Ruby language
++ Understand the meaning of the phrase **"Everything in Ruby is an Object"**
++ Execute simple Ruby scripts in their own operating system's command line
++ Write basic Ruby code following both the Ruby language's and Icalia Labs' internal style and conventions
+  
+
+## Lesson
+ Extensive introduction into the basic syntactical, semantical and morphological aspects of the language.
 
 + Explain and demo IRB
 + Variable Declaration/Assignment/Inspection
@@ -13,7 +22,7 @@
 + Ranges
 + Hello, world!
 
-**Practice:**
+## Practice 
 
 Each trainee will practice the previously covered theory by writing a Ruby script according to the following instructions/requirements. Each step represents a different "step" in the script:
 
@@ -44,8 +53,8 @@ Complete the following sections of the [Codecademy Learn Ruby course](https://ww
 ## Useful Links
 
 + [Official Ruby Language Doumentation](https://ruby-doc.org/core-2.6/)
-+ [Ruby Guides](https://www.rubyguides.com/)
 + [Codecademy Ruby Course](https://www.codecademy.com/courses/learn-ruby)
 + [TryRuby: Learn programming with Ruby](https://ruby.github.io/TryRuby/)
++ [Ruby Guides](https://www.rubyguides.com/)
 
 
