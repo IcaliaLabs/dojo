@@ -3,6 +3,12 @@
 ## Week Overview
 This directory contains a full week's worth of lessons, practice exercises and relevant resources that cover **Week One**'s training syllabus. Each numbered subdirectory contains resources (files, documents and relevant links) for the respective training day (starting at 01).
 
+## Objective
+
+The main objective for the first week of training is for the trainee to become proficient in their use of the Ruby programming language for basic program development.
+
+By the end of the week, the trainee should be able to complete simple and slightly more complex command line applications in native Ruby. 
+
 ## Table of contents
 * [00 - Setting Up](#markdown-header-setting-up)
 * [01 - Introduction to the Ruby Language](01)
@@ -18,8 +24,28 @@ This directory contains a full week's worth of lessons, practice exercises and r
 
 Before we jump into Ruby, we must first set up our environment. In order to be able to write and execute Ruby scripts and programs, we must first have an updated version of Ruby installed.
 
-Trainees using macOS will find that Ruby is installed by default on their machines. Other OS users must install both Ruby and a Ruby version manager (Icalia Labs strongly recommends you use [rbenv](https://github.com/rbenv/rbenv))
+Trainees using macOS will find that Ruby is installed by default on their machines. Other OS users (for non Mac users, dual booting a Linux distro is **strongly encouraged**) must install both the Ruby language and a Ruby version manager (Icalia Labs strongly recommends you use [rbenv](https://github.com/rbenv/rbenv), which also applies to macOS users). 
 
+Please follow any of the following installation guides before continuing:
+
+### macOS 
+
+High Sierra and above
+
+  1. [Install Homebrew Package Manager](https://brew.sh/)
+  2. [Install Ruby using rbenv](https://jasoncharnes.com/install-ruby/)
+
+### Linux
+
+Debian/Ubuntu (apt package manager):
+  
+`$ sudo apt-get install ruby-full`
+
++ [Installing rbenv on Ubuntu](https://makandracards.com/makandra/28149-installing-rbenv-on-ubuntu)
+
+### Windows (please reconsider a Linux distribution)
+
++ [Windows Ruby Installer](https://www.ruby-lang.org/en/documentation/installation/#rubyinstaller)
 
 
 ## Things to keep in mind about Ruby
@@ -34,9 +60,7 @@ Trainees using macOS will find that Ruby is installed by default on their machin
 
 
 
-## Code conventions
-
-
+## Icalia Labs Ruby Code conventions
 
 * Use snake case for variable and method naming
 * Use camel case for naming your classes/modules
@@ -48,4 +72,4 @@ Trainees using macOS will find that Ruby is installed by default on their machin
   arguments, `exit!`, etc.) should end with an exclamation mark.
 
 
-If you want to know more about how we code Ruby at Icalia, check out our [guides](https://github.com/IcaliaLabs/guides/tree/master/stack/ruby)
+If you want to know more about how we code Ruby at Icalia, check out our [guides](https://github.com/IcaliaLabs/guides/tree/master/stack/ruby).
