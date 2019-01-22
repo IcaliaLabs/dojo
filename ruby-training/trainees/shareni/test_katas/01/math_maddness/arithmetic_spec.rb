@@ -5,7 +5,7 @@ class Calculator
         first_operand + second_operand
     end
 
-    def substract(first_operand, second_operand)
+    def subtract(first_operand, second_operand)
         first_operand - second_operand
     end
 
@@ -23,34 +23,40 @@ class Calculator
 end
 
 describe "Calculator" do
-    it "adds two numbers" do
-        calculator = Calculator.new
-        result = calculator.add(5,4)
-        expect(result).to eq(9)
+    describe "#add" do
+        it "adds two numbers" do
+            calculator = Calculator.new
+            result = calculator.add(5, 4)
+            expect(result).to eq(9)
+        end
     end
 
-    it "substracts two numbers" do
-        calculator = Calculator.new
-        result = calculator.substract(4,5)
-        expect(result).to eq(-1)
+    describe "#subtract" do
+        it "subtracts two numbers" do
+            calculator = Calculator.new
+            result = calculator.subtract(4, 5)
+            expect(result).to eq(-1)
+        end
     end
 
-    it "multiplies two numbers" do
-        calculator = Calculator.new
-        result = calculator.multiply(5,6)
-        expect(result).to eq(30)
+    describe "#multiply" do
+        it "multiplies two numbers" do
+            calculator = Calculator.new
+            result = calculator.multiply(5, 6)
+            expect(result).to eq(30)
+        end
     end
 
     describe "#divide" do
         it "divides two numbers that aren't 0" do
             calculator = Calculator.new
-            result = calculator.divide(10,5)
+            result = calculator.divide(10, 5)
             expect(result).to eq(2)
         end
 
-        it "shows a message if the divider is 0" do
+        it "shows an error message if the denominator is 0" do
             calculator = Calculator.new
-            result = calculator.divide(5,0)
+            result = calculator.divide(5, 0)
             expect(result).to eq("Can't divide by 0")
         end
 
