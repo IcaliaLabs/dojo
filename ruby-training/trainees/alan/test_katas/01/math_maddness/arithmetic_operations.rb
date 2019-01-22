@@ -1,6 +1,6 @@
 require 'rspec/autorun'
 
-class Aritmetic_operations
+class ArithmeticOperations
     
     def self.add(first_number, second_number)
        first_number +  second_number
@@ -19,8 +19,3 @@ class Aritmetic_operations
     end
 end
 
-calculus = Aritmetic_operations.add(12, 4)
-calculus = Aritmetic_operations.substraction(15,5)
-calculus = Aritmetic_operations.multiply(8,6)
-calculus = Aritmetic_operations.divide(16,4)
-           
