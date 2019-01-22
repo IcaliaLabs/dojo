@@ -1,21 +1,21 @@
 require 'rspec'
 
 class Calculator
-    def add(first_number, second_number)
-        first_number + second_number
+    def add(first_operand, second_operand)
+        first_operand + second_operand
     end
 
-    def substract(first_number, second_number)
-        first_number - second_number
+    def substract(first_operand, second_operand)
+        first_operand - second_operand
     end
 
-    def multiply(first_number, second_number)
-        first_number * second_number
+    def multiply(first_operand, second_operand)
+        first_operand * second_operand
     end
 
-    def divide(first_number, second_number)
-        if second_number != 0
-            first_number / second_number
+    def divide(first_operand, second_operand)
+        if second_operand != 0
+            first_operand / second_operand
         else
             "Can't divide by 0"
         end
