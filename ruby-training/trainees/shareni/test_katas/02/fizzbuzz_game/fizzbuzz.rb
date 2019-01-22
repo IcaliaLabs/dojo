@@ -6,6 +6,8 @@ class FizzBuzz
             "Fizz"
         elsif number % 5 == 0
             "Buzz"
+        else
+            number
         end
     end
 end
