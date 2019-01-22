@@ -10,4 +10,11 @@ describe "Converter" do
         end
     end
     
+    describe "#convert_number_to_array" do
+        it "returns an array of the number" do
+            converter = Converter.new
+            result = converter.convert_number_to_array(129450)
+            expect(result).to eq([1,2,9,4,5,0])
+        end
+    end
 end
