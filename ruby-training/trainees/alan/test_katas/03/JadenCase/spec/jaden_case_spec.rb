@@ -14,4 +14,10 @@ describe JadenCase do
             expect(JadenCase.capitalize_words!("Hello, there.")).to eq(["Hello,","There."])
         end
     end
+
+    describe ".make_it_in_jaden_case" do
+        it "should return the sentence with the jade case" do
+            expect(JadenCase.make_it_in_jaden_case("I'm in the corner :(.")).to eq("I'm In The Corner :(.")
+        end
+    end
 end
