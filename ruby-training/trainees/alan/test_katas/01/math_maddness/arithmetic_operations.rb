@@ -14,7 +14,8 @@ class ArithmeticOperations
     end
 
     def self.divide(left_operand, rigth_operand)
-        left_operand / rigth_operand
+        return left_operand / rigth_operand unless rigth_operand == 0
+        "A number can't be divided by zero"
     end
 end
 

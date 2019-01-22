@@ -25,8 +25,13 @@ describe ArithmeticOperations do
 
     describe ".division" do
         it "should return the division of the two numbers given" do
-            calculus = Aritmetic_operations.divide(16, 4)
+            calculus = ArithmeticOperations.divide(16, 4)
             expect(calculus).to eq(4)
+        end
+
+        it "should return a error message that a number can't be divided by zero" do
+            calculus = ArithmeticOperations.divide(12, 0)
+            expect(calculus).to eq("A number can't be divided by zero")
         end
     end
 end
