@@ -59,6 +59,5 @@ describe "Calculator" do
             result = calculator.divide(5, 0)
             expect(result).to eq("Can't divide by 0")
         end
-
     end
 end
