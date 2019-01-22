@@ -12,6 +12,10 @@ class Calculator
     def multiply(first_number, second_number)
         first_number * second_number
     end
+
+    def divide(first_number, second_number)
+        first_number / second_number
+    end
 end
 
 describe "Calculator" do
@@ -31,5 +35,13 @@ describe "Calculator" do
         calculator = Calculator.new
         result = calculator.multiply(5,6)
         expect(result).to eq(30)
+    end
+
+    describe "#divide" do
+        it "divides two numbers that aren't 0" do
+            calculator = Calculator.new
+            result = calculator.divide(10,5)
+            expect(result).to eq(2)
+        end
     end
 end
