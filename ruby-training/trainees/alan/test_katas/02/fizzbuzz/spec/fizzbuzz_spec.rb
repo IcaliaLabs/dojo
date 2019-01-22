@@ -12,8 +12,13 @@ describe FizzBuzzGame do
 
     describe ".it_is_buzz?" do
         it "should return true if the number is divisible by 5" do
-            expect(FizzBuzzGame.it_is_buzz?(15)).to eq(true)
+            expect(FizzBuzzGame.it_is_buzz?(20)).to eq(true)
         end
     end
 
+    describe ".it_is_fizzbuzz?" do
+        it "should return true if the number is divisible by 5 and 3" do
+            expect(FizzBuzzGame.it_is_fizzbuzz?(15)).to eq(true)
+        end
+    end
 end
