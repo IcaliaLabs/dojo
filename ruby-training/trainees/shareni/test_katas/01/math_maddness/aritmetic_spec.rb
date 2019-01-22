@@ -8,6 +8,10 @@ class Calculator
     def substract(first_number, second_number)
         first_number - second_number
     end
+
+    def multiply(first_number, second_number)
+        first_number * second_number
+    end
 end
 
 describe "Calculator" do
@@ -23,4 +27,9 @@ describe "Calculator" do
         expect(result).to eq(-1)
     end
 
+    it "multiplies two numbers" do
+        calculator = Calculator.new
+        result = calculator.multiply(5,6)
+        expect(result).to eq(30)
+    end
 end
