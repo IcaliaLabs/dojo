@@ -20,5 +20,11 @@ describe "FizzBuzz" do
            result = game.play(15)
            expect(result).to eq("FizzBuzz") 
         end
+
+        it "returns the same number if it's not divisible by 3, 5 or both" do
+            game = FizzBuzz.new
+            result = game.play(8)
+            expect(result).to eq(8)
+        end
     end
 end
