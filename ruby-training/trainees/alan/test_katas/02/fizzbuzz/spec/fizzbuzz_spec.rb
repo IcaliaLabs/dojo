@@ -21,4 +21,10 @@ describe FizzBuzzGame do
             expect(FizzBuzzGame.it_is_fizzbuzz?(15)).to eq(true)
         end
     end
+
+    describe "it_has_a_3?" do
+        it "should return true if the number has a 3" do
+            expect(FizzBuzzGame.it_has_a_3? (531)).to eq(true)
+        end
+    end
 end
