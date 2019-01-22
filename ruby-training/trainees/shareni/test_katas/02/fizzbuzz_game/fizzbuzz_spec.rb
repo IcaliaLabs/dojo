@@ -9,9 +9,21 @@ describe "FizzBuzz" do
             expect(result).to eq("Fizz")
         end
 
+        it "returns Fizz if the number has a 3" do
+            game = FizzBuzz.new
+            result = game.play(13)
+            expect(result).to eq("Fizz")
+        end
+
         it "returns Buzz if the number is divisible by 5" do
             game = FizzBuzz.new
             result = game.play(10)
+            expect(result).to eq("Buzz")
+        end 
+
+        it "returns Buzz if the number has a 5" do
+            game = FizzBuzz.new
+            result = game.play(52)
             expect(result).to eq("Buzz")
         end 
 
