@@ -14,7 +14,11 @@ class Calculator
     end
 
     def divide(first_number, second_number)
-        first_number / second_number
+        if second_number != 0
+            first_number / second_number
+        else
+            "Can't divide by 0"
+        end
     end
 end
 
@@ -43,5 +47,12 @@ describe "Calculator" do
             result = calculator.divide(10,5)
             expect(result).to eq(2)
         end
+
+        it "shows a message if the divider is 0" do
+            calculator = Calculator.new
+            result = calculator.divide(5,0)
+            expect(result).to eq("Can't divide by 0")
+        end
+
     end
 end
