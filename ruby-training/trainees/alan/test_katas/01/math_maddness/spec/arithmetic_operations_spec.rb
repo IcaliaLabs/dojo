@@ -2,30 +2,30 @@ require 'rspec/autorun'
 require '../arithmetic_operations.rb'
 
 describe ArithmeticOperations do
-    describe "#add" do
-        it "Sum the two numbers and the result is equal to 16" do
+    describe ".add" do
+        it "should return the sum of the two numbers given" do
              calculus = ArithmeticOperations.add(12, 4)
             expect(calculus).to eq(16)
         end
     end
 
-    describe "#substraction" do
-        it "The first number is substracted by the second number, the result is 10" do
-            calculus = ArithmeticOperations.substraction(15,5)
+    describe ".subtraction" do
+        it "should return the subtraction of the two numbers given" do
+            calculus = ArithmeticOperations.subtraction(15, 5)
             expect(calculus).to eq(10)
         end
     end
 
-    describe "#multiply" do
-        it "The result, that is 48, is the multiply of the two numbers" do
-            calculus = ArithmeticOperations.multiply(8,6)
+    describe ".multiply" do
+        it "should return the product of the two numbers given" do
+            calculus = ArithmeticOperations.multiply(8, 6)
             expect(calculus).to eq(48)
         end
     end
 
-    describe "#division" do
-        it "Divide the first number by the second number and the result must be 4" do
-            calculus = Aritmetic_operations.divide(16,4)
+    describe ".division" do
+        it "should return the division of the two numbers given" do
+            calculus = Aritmetic_operations.divide(16, 4)
             expect(calculus).to eq(4)
         end
     end

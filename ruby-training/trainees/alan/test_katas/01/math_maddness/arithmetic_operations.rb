@@ -1,21 +1,20 @@
-require 'rspec/autorun'
 
 class ArithmeticOperations
     
-    def self.add(first_number, second_number)
-       first_number +  second_number
+    def self.add(left_operand, rigth_operand)
+       left_operand +  rigth_operand
     end
     
-    def self.substraction(first_number, second_number)
-        first_number - second_number
+    def self.subtraction(left_operand, rigth_operand)
+        left_operand - rigth_operand
     end
 
-    def self.multiply(first_number, second_number)
-        first_number * second_number
+    def self.multiply(left_operand, rigth_operand)
+        left_operand * rigth_operand
     end
 
-    def self.divide(first_number, second_number)
-        first_number / second_number
+    def self.divide(left_operand, rigth_operand)
+        left_operand / rigth_operand
     end
 end
 
