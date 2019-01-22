@@ -1,17 +1,12 @@
-require 'rspect/autorun'
-
-class FizzBuzzGame
-    
-
-end
+require 'rspec/autorun'
+require '../fizzbuzz_game.rb'
 
 describe FizzBuzzGame do
 
-    describe "#it_is_fizz?" do
-        it "recieve a number and determinate that the number is not fizz, recieve a false" do
-            
+    describe ".it_is_fizz?" do
+        it "should recieve true if the number is a fizz" do
+            expect(FizzBuzzGame.it_is_fizz?(6)).to eq(true)
         end
 
-        it "recieve a number and determinate that the number is  fizz, recieve a true" do
-        end
     end
+end
