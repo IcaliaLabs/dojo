@@ -14,4 +14,10 @@ describe SumWithOutMaxMin do
             expect(SumWithOutMaxMin.eliminate_min_and_max([6,4,9,3])).to match_array([4,6])
         end
     end
+
+    describe ".sum_array" do 
+        it "should return the sum of the elements of the array" do
+            expect(SumWithOutMaxMin.sum_array([6,4,9,3])).to eq(10)
+        end
+    end
 end
