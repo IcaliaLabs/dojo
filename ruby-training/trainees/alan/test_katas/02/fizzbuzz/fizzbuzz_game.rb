@@ -9,23 +9,15 @@ class FizzBuzzGame
     end
 
     def self.is_it_fizzbuzz? (number)
-        is_it_buzz?(number) and is_it_fizz?(number)
-    end
-
-    def self.has_it_a_3? (number)
-        number.to_s.include?("3")
-    end
-
-    def self.has_it_a_5? (number)
-        number.to_s.include?("5")
+        is_it_buzz?(number) && is_it_fizz?(number)
     end
 
     def self.game(number)
         if is_it_fizzbuzz?(number)
             "FizzBuzz"
-        elsif is_it_buzz?(number) or has_it_a_5?(number)
+        elsif is_it_buzz?(number) || number.to_s.include?("5")
             "Buzz"
-        elsif is_it_fizz?(number) or has_it_a_3?(number)
+        elsif is_it_fizz?(number) || number.to_s.include?("3")
             "Fizz"
         else 
             number
