@@ -6,21 +6,42 @@ class Puppy
   def initialize
     # Puppies are calm at first.
     @state = :calm
+    @pet = 0
+    @sprayed = 0
   end
 
   def pet
-    # Your code here
+    if @pet < 1
+      @state = :wagging    
+    elsif @pet > 0
+      @state = :excited
+    end
+    @pet += 1
   end
 
   def rub_belly
-    # Your code here
+    @state = :calm    
+    @pet = 0
+    @sprayed = 0
   end
 
   def spray
-    # Your code here
+    if @sprayed < 1
+      @state = :growling     
+    elsif @sprayed > 0
+      @state = :angry
+    end
+    @sprayed += 1
   end
 
   def speak
-    # Your code here
+    case @state
+      when :growling
+        'Grrrr.'
+      when :angry
+        'BARK BARK BARK!'
+      when :calm
+        'Bark!'
+    end
   end
 end
