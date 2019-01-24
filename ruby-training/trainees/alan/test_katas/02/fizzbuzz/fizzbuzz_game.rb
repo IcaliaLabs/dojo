@@ -1,14 +1,14 @@
 class FizzBuzzGame
     
-    def self.is_it_fizz? (number)
+    def self.is_it_fizz?(number)
         number % 3 == 0
     end
 
-    def self.is_it_buzz? (number)
+    def self.is_it_buzz?(number)
         number % 5 == 0
     end
 
-    def self.is_it_fizzbuzz? (number)
+    def self.is_it_fizzbuzz?(number)
         is_it_buzz?(number) && is_it_fizz?(number)
     end
 
