@@ -12,5 +12,8 @@ describe StringCalculator do
         it "should return the sum of the string values in integer form in case there are 2 or more values in the list" do
             expect(StringCalculator.add("3,5,2")).to eq(10)
         end
+        it "should return the sum of the string number values in integer form ignoring all other characters in the string" do
+            expect(StringCalculator.add("//[***]\n1***2***3")).to eq(6)
+        end
     end
 end
