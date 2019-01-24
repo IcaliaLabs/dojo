@@ -15,5 +15,8 @@ describe StringCalculator do
         it "should return the sum of the string number values in integer form ignoring all other characters in the string" do
             expect(StringCalculator.add("//[***]\n1***2***3")).to eq(6)
         end
+        it "should ignore all numbers bigger than 1000" do
+            expect(StringCalculator.add("//[***]\n1***2***3000")).to eq(3)
+        end
     end
 end
