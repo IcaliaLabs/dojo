@@ -17,7 +17,7 @@ class Calculator
     end
     
     def self.divide(numerator, denominator)
-        return nil if numerator.is_a?(String) or denominator.is_a?(String)
+        return nil if either_operand_is_string?(numerator, denominator)
         return nil if denominator == 0
         numerator / denominator
     end
