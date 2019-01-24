@@ -4,5 +4,6 @@ class StringCalculator
         return 0 if string_numbers.empty?
         numbers = string_numbers.split(",").map(&:to_i)
         return numbers.first if numbers.size < 2
+        return numbers.reduce(:+) if numbers.size > 1
     end
 end
