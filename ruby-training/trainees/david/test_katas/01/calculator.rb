@@ -1,23 +1,30 @@
+
 class Calculator
 
-    def self.add(a, b)
-        return nil if b.is_a?(String) or a.is_a?(String)
-        a + b
+    def self.add(left_operand, right_operand)
+        return nil if either_operand_is_string?(left_operand, right_operand)
+        left_operand + right_operand
     end
     
-    def self.subtract(a, b)
-        return nil if b.is_a?(String) or a.is_a?(String)
-        a - b
+    def self.subtract(left_operand, right_operand)
+        return nil if either_operand_is_string?(left_operand, right_operand)
+        left_operand - right_operand
     end
     
-    def self.multiply(a, b)
-        return nil if b.is_a?(String) or a.is_a?(String)
-        a * b
+    def self.multiply(left_operand, right_operand)
+        return nil if either_operand_is_string?(left_operand, right_operand)
+        left_operand * right_operand
     end
     
     def self.divide(numerator, denominator)
         return nil if numerator.is_a?(String) or denominator.is_a?(String)
         return nil if denominator == 0
         numerator / denominator
+    end
+
+    private
+
+    def self.either_operand_is_string?(left_operand, right_operand)
+        left_operand.is_a?(String) || right_operand.is_a?(String)
     end
 end
