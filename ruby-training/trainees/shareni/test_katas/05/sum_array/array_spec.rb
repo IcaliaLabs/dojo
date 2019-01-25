@@ -1,5 +1,5 @@
 require 'rspec'
-require './new_array'
+require_relative 'new_array'
 
 describe "Array" do
     describe "#sum" do
