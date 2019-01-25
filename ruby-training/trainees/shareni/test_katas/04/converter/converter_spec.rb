@@ -1,5 +1,5 @@
 require 'rspec'
-require './converter'
+require_relative 'converter'
 
 describe "Converter" do
     describe "#convert_number_to_reverse_array" do
