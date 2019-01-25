@@ -1,5 +1,5 @@
 require 'rspec'
-require './fizzbuzz'
+require_relative './fizzbuzz'
 
 describe "FizzBuzz" do
     describe "#play" do
