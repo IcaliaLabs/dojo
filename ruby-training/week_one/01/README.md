@@ -1,4 +1,4 @@
-# Dojo Ruby Training Plan: Day One
+# 01 - Introduction to the Ruby Language
 
 ## Lesson Objectives
 
