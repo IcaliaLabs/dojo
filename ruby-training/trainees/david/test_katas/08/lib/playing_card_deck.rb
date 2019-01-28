@@ -9,8 +9,7 @@ class PlayingCardDeck < Deck
  
     @ranks.each do |rank|
       @suits.each do |suit|
-        card = PlayingCard.new(rank,suit)
-        @cards << card
+        @cards << PlayingCard.new(rank,suit)
       end
     end
 
