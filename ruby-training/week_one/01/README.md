@@ -17,8 +17,10 @@ After this training stage the trainee should be able to:
 + Everything in Ruby is an Object
 + Loose typed
 + Arithmetic operators
++ Strings and string interpolation
 + Arrays, Hashes
 + Basic methods (size, length, etc..)
++ Basic use of conditionals and flow control
 + Iterators (for..in, each)
 + Ranges
 + Hello, world!
@@ -51,9 +53,18 @@ Abraham Kuri is a 29 year old developer with 3 friends and is able to cook, do m
 
 Complete the following sections of the [Codecademy Learn Ruby course](https://www.codecademy.com/courses/learn-ruby):
 
-+ **Section 1:**
++ **Section 1: Introduction to Ruby**
 	+ Interactive Lesson 1: [Introduction to Ruby](https://www.codecademy.com/courses/learn-ruby/lessons/introduction-to-ruby/exercises/overview--sneak-peek)
 	+ Interactive Lesson 2: [Putting the Form in the Formatter](https://www.codecademy.com/courses/learn-ruby/lessons/putting-the-form-in-formatter/exercises/what-youll-be-building?)
++ **Section 2: Control Flow in Ruby**
+	+ Interactive Lesson 3: [Control Flow in Ruby](https://www.codecademy.com/courses/learn-ruby/lessons/control-flow-in-ruby/exercises/how-it-works?)
+	+ Interactive Lesson 4: [Thith Meanth War!](https://www.codecademy.com/courses/learn-ruby/lessons/thith-meanth-war/exercises/what-youll-be-building-1)
++ **Section 3: Looping with Ruby**
+	+ Interactive Lesson 5: [Loops & Iterators](https://www.codecademy.com/courses/learn-ruby/lessons/loops-iterators/exercises/the-while-loop)
+	+ Interactive Lesson 6: [Redacted!](https://www.codecademy.com/courses/learn-ruby/lessons/redacted/exercises/what-youll-be-building-2)
++ **Section 4: Arrays and Hashes**
+	+ Interactive Lesson 7: [Data Structures](https://www.codecademy.com/courses/learn-ruby/lessons/data-structures/exercises/creating-arrays)
+	+ Interactice Lesson 8: [Create a Histogram](https://https://www.codecademy.com/courses/learn-ruby/lessons/create-a-histogram/exercises/what-youll-be-building-3)
 
 ## Useful Links
 
