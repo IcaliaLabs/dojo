@@ -23,4 +23,10 @@ In the future, the Dojo will include resources related to the following technolo
 Please contact [@HectorMg](https://github.com/users/HectorMg) or [@kurenn](https://github.com/users/kurenn) if you're interested in contributing to either of these directories.
 
 
+# Credits
+
+![Icalia Labs](https://avatars0.githubusercontent.com/u/2523244?v=3&s=200)
+
+The Dojo is maintained by [Icalia Labs](https://icalialabs.com)
+
 
