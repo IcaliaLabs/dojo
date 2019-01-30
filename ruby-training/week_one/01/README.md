@@ -1,4 +1,4 @@
-# Dojo Ruby Training Plan: Day One
+# 01 - Introduction to the Ruby Language
 
 ## Lesson Objectives
 
@@ -25,7 +25,11 @@ After this training stage the trainee should be able to:
 + Ranges
 + Hello, world!
 
+The [lesson.rb](/lesson.rb) file in this directory contains commented code examples for all of these concepts.
+
 ## Practice 
+
+In order to complete this practice exercise, checkout the [practice.rb](/practice.rb) file for the exercise template.
 
 Each trainee will practice the previously covered theory by writing a Ruby script according to the following instructions/requirements. Each step represents a different "step" in the script:
 
