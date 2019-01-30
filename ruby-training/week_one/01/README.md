@@ -17,6 +17,7 @@ After this training stage the trainee should be able to:
 + Everything in Ruby is an Object
 + Loose typed
 + Arithmetic operators
++ Strings and string interpolation
 + Arrays, Hashes
 + Basic methods (size, length, etc..)
 + Iterators (for..in, each)
