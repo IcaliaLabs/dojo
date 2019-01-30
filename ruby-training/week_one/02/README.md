@@ -20,9 +20,8 @@ This lesson consists of a detailed exploration of the Ruby syntax and convention
 + Default attribute values (optional parameters)
 + Optional parentheses
 + Method calls
-+ Blocks & Yield
-+ Anonymous functions (Lambda)
-+ Functional programming in Ruby (`.map()`, `.reduce()`, etc.)
++ Blocks, Procs and Lambdas
++ Functional programming methods in Ruby (`.map()`, `.reduce()`, etc.)
 + Higher order functions
 
 The [lesson.rb](/lesson.rb) file in this directory contains commented code examples for all of these concepts.
@@ -58,15 +57,22 @@ Your reviewers are Héctor and Vov.
 
 Complete the following sections of the [Codecademy Learn Ruby course](https://www.codecademy.com/courses/learn-ruby):
 
-+ **Section 5:**
-	+ Interactive Lesson 1: [Introduction to Ruby](https://www.codecademy.com/courses/learn-ruby/lessons/introduction-to-ruby/exercises/overview--sneak-peek)
-	+ Interactive Lesson 2: [Putting the Form in the Formatter](https://www.codecademy.com/courses/learn-ruby/lessons/putting-the-form-in-formatter/exercises/what-youll-be-building?)
++ **Section 5: Blocks and Sorting**
+	+ Interactive Lesson 9: [Methods, Blocks & Sorting](https://www.codecademy.com/courses/learn-ruby/lessons/methods-blocks-sorting/exercises/why-methods)
+	+ Interactive Lesson 10: [Ordering your Library](https://www.codecademy.com/courses/learn-ruby/lessons/ordering-your-library/exercises/what-youll-be-building-4)
++ **Section 6: Hashes and Symbols**
+  +  Interactive Lesson 11: [Hashes and Symbols](https://www.codecademy.com/courses/learn-ruby/lessons/hashes-and-symbols/exercises/the-story-so-far)
+  +  Interactive Lesson 12: [A Night at the Movies](https://www.codecademy.com/courses/learn-ruby/lessons/a-night-at-the-movies/exercises/what-youll-be-building-5)
++ **Section 7: Refactoring**
+  + Interactive Lesson 13: [The Zen of Ruby](https://www.codecademy.com/courses/learn-ruby/lessons/the-zen-of-ruby?action=resume_content_item)
+  + Interactive Lesson 14: [The Refactor Factory](https://www.codecademy.com/courses/learn-ruby/lessons/the-refactor-factory/exercises/what-youll-be-fixing)
++ **Section 8: Blocks, Procs and Lambdas**
+  + Interactive Lesson 15: [Blocks, Procs and Lambdas](https://www.codecademy.com/courses/learn-ruby/lessons/blocks-procs-and-lambdas)
 
 ## Useful Links
 
-+ [Official Ruby Language Doumentation](https://ruby-doc.org/core-2.6/)
-+ [Codecademy Ruby Course](https://www.codecademy.com/courses/learn-ruby)
-+ [TryRuby: Learn programming with Ruby](https://ruby.github.io/TryRuby/)
++ [Ruby Methods: W3Resource](https://www.w3resource.com/ruby/ruby-methods.php)
++ [Closures in Ruby: Blocks, Procs and Lambdas (Highly Recommended Read)](https://blog.appsignal.com/2018/09/04/ruby-magic-closures-in-ruby-blocks-procs-and-lambdas.html)
 + [Icalia Labs Internal Ruby Guides](https://github.com/IcaliaLabs/guides/tree/master/stack/ruby)
 + [Ruby Guides](https://www.rubyguides.com/)
 
