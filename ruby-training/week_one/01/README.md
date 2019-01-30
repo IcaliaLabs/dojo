@@ -20,6 +20,7 @@ After this training stage the trainee should be able to:
 + Strings and string interpolation
 + Arrays, Hashes
 + Basic methods (size, length, etc..)
++ Basic use of conditionals and flow control
 + Iterators (for..in, each)
 + Ranges
 + Hello, world!
