@@ -4,7 +4,7 @@ require '../sum_with_out_max_min.rb'
 describe SumWithOutMaxMin do
 
     describe ".sort_array_of_intergers" do
-        it "should return a sorted array from smallest to largest value" do
+        it "should return an array sorted on ascending order" do
             expect(SumWithOutMaxMin.sort_array_of_intergers([6,4,9,3])).to match_array([3,4,6,9])
         end
     end
