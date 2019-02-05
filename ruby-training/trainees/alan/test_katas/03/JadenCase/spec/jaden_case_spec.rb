@@ -3,9 +3,9 @@ require_relative "../jaden_case.rb"
 
 describe JadenCase do
 
-    describe ".array_of_capitalize_words" do
+    describe ".array_of_capitalized_words" do
         it "should return an array of capitalized words" do
-            expect(JadenCase.array_of_capitalize_words("Hello, there.")).to eq(["Hello,","There."])
+            expect(JadenCase.array_of_capitalized_words("Hello, there.")).to eq(["Hello,","There."])
         end
     end
 

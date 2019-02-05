@@ -2,7 +2,7 @@
 
 class JadenCase
 
-    def self.array_of_capitalize_words(sentence)
+    def self.array_of_capitalized_words(sentence)
         words = sentence.split()
         words.each { |word| word.capitalize!}
     end
