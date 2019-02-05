@@ -1,4 +1,6 @@
-# 03 - Data and Behavior Encapsulation in Ruby
+# 00 - Dojo Lesson ReadMe Template
+
+Use this README format template to summarize and describe the lesson content for a particular resource/day of training.
 
 ## Lesson Objectives
 
