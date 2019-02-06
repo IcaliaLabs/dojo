@@ -20,7 +20,7 @@ In the future, the Dojo will include resources related to the following technolo
 + Git
 + Docker
 
-Please contact [@HectorMg](https://github.com/users/HectorMg) or [@kurenn](https://github.com/users/kurenn) if you're interested in contributing to either of these directories.
+Please contact [@HectorMg](https://github.com/HectorMg) or [@kurenn](https://github.com/kurenn) if you're interested in contributing to either of these directories.
 
 
 # Credits
