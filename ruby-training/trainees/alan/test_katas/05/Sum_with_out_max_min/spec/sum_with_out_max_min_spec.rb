@@ -1,17 +1,12 @@
 require 'rspec/autorun'
-require '../sum_with_out_max_min.rb'
+require_relative '../sum_with_out_max_min.rb'
 
 describe SumWithOutMaxMin do
 
-    describe ".sort_array_of_intergers" do
-        it "should return an array sorted on ascending order" do
-            expect(SumWithOutMaxMin.sort_array_of_intergers([6,4,9,3])).to match_array([3,4,6,9])
-        end
-    end
 
     describe ".eliminate_min_and_max" do
         it "should return an array without the first and last element" do
-            expect(SumWithOutMaxMin.eliminate_min_and_max([6,4,9,3])).to match_array([4,6])
+            expect(SumWithOutMaxMin.remove_min_and_max([6,4,9,3])).to match_array([4,6])
         end
     end
 
