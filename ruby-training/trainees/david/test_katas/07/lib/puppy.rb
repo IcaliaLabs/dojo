@@ -1,4 +1,9 @@
 class Puppy
+  SPEAK_STATES = {
+    calm: 'Bark!',
+    angry: 'BARK BARK BARK!',
+    growling: 'Grrrr.'
+  }
   # Creates an instance variable "state" that you can set in your class.
   # "_reader" means other objects can read your state by calling "some_puppy.state".
   attr_reader :state
@@ -11,37 +16,57 @@ class Puppy
   end
 
   def pet
-    if @pet < 1
-      @state = :wagging    
-    elsif @pet > 0
-      @state = :excited
-    end
+    update_state_when_petted
     @pet += 1
   end
 
   def rub_belly
-    @state = :calm    
-    @pet = 0
-    @sprayed = 0
+    reset_values
   end
 
   def spray
-    if @sprayed < 1
-      @state = :growling     
-    elsif @sprayed > 0
-      @state = :angry
-    end
+    update_state_when_sprayed
     @sprayed += 1
   end
 
   def speak
-    case @state
-      when :growling
-        'Grrrr.'
-      when :angry
-        'BARK BARK BARK!'
-      when :calm
-        'Bark!'
-    end
+    SPEAK_STATES[@state]
   end
+
+  private
+
+  def reset_values
+    calm
+    @pet = 0
+    @sprayed = 0
+  end
+
+  def calm
+    @state = :calm
+  end
+
+  def wag
+    @state = :wagging
+  end
+
+  def excited
+    @state = :excited
+  end
+
+  def angry
+    @state = :angry
+  end
+
+  def growling
+    @state = :growling
+  end
+
+  def update_state_when_sprayed
+    @sprayed  > 0 ? angry : growling
+  end
+
+  def update_state_when_petted
+    @pet  > 0 ? excited : wag
+  end
+
 end
