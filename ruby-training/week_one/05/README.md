@@ -1,4 +1,5 @@
 # 05 - IO: Working with Files in Ruby
+
 ## Lesson Objectives
 
 After this training stage the trainee should be able to: 
@@ -8,9 +9,8 @@ After this training stage the trainee should be able to:
 + Load text files from the file system into a Ruby script through Ruby's `File ` module.
 + Read the contents from the loaded text file and use them in the script
 + Modify, extend, write and add content to the loaded file in an automatic way through a Ruby script.
-+  Handle input and output that deals with Comma-Separated Value files, particularly with the [csv](https://github.com/ruby/csv) Ruby gem.
++ Handle input and output that deals with Comma-Separated Value files, particularly with the [csv](https://github.com/ruby/csv) Ruby gem.
   
-
 ## Lesson
 
 This lesson consists of a detailed exploration of the Ruby syntax and conventions for reading from (input) and writing (output) to files.
@@ -24,7 +24,7 @@ This lesson consists of a detailed exploration of the Ruby syntax and convention
 
 The [lesson.rb](/lesson.rb) file in this directory contains commented code examples for all of these concepts.
 
-## Practice 
+## Practice
 
 In order to complete this practice exercise, checkout the [practice.rb](/practice.rb) file for the exercise template. This practice is a two-part exercise.
 
@@ -42,7 +42,9 @@ Count how many times the letter a is repeated in the countries in the world
 2. Write a Ruby script that somehow counts and reports the number of letters 'a' (case-insensitive) that appear in the names of all the countries in the file. Write the script while keeping in mind everything you've learned about making your code clean, readable and effective.
 
 ### Exercise Two
+
 Based on the [sales.csv](sales.csv) file, create the necessary Ruby classes and their respective methods to get the following information:
+
 1. Total sales for each different product
 2. Most used credit card handler(Mastercard, Visa)
 3. Country with most transactions
@@ -53,13 +55,11 @@ Each class must use the CSV module/gem to parse the raw CSV content into a nativ
 
  **Some classes that you may or not need are:**
 
- + `Transaction`
- + `Product`
- + `PaymentType`
++ `Transaction`
++ `Product`
++ `PaymentType`
 
  The class names above are just simple examples, but you can create any classes you think you may need and you can call them whatever you think appropriate.
-
-
 
 ## Self Study
 
@@ -67,7 +67,8 @@ Each class must use the CSV module/gem to parse the raw CSV content into a nativ
 + [Philip Brown - Working with CSV Files](https://www.culttt.com/2016/04/20/working-csvs-ruby/)
 
 ## Useful Links
-+ [RubyDoc - IO::File Module ](http://ruby-doc.org/core-2.2.0/File.html)
+
++ [RubyDoc - IO::File Module](http://ruby-doc.org/core-2.2.0/File.html)
 + [RubyDoc - IO Open Modes](https://ruby-doc.org/core-2.6.1/IO.html#method-c-ne)
 + [String Literals Review](https://mikeyhogarth.wordpress.com/2011/11/24/notation-for-ruby-literals)
 + [RubyDoc - CSV Module](http://ruby-doc.org/stdlib-1.9.2/libdoc/csv/rdoc/CSV.html)
