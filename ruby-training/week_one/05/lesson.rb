@@ -67,7 +67,15 @@ require 'csv'
 # Comma-separated value files are, as the name implies,
 # a text file composed of lines of text made up of comma-separated
 # elements. The position of each element in the line matters
-# because
+# because it corresponds to a particular column in a table.
+# In order to identify the attribute that the value corresponds to,
+# the CSV gem allows us to set the "headers: true" option in
+# an options hash, which tells CSV to treat the first row in the
+# file as a list of "tags" or headers, instead of another row of values.
 CSV.foreach('sales.csv', headers: true) do |row|
+# Remember, if a hash is the last parameter in a method, such as in 
+# this case, the hash doens't need to have the curly braces and
+# you can list the "key: value" pairs as extra parameters.
   puts row["Product"]
 end
+
