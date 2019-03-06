@@ -26,7 +26,7 @@ In order to complete this practice exercise, checkout the [practice.rb](/practic
 
 The following gems are used in these practice exercises:
 
-+ [csv](https://github.com/ruby/csv
++ [csv](https://github.com/ruby/csv)
 + [rest-client](https://github.com/rest-client/rest-client)
 + [nokogiri](https://github.com/sparklemotion/nokogiri)
 
@@ -53,12 +53,16 @@ Scrape the [Hacker News](https://news.ycombinator.com) website and model the nec
 
 ## Self Study
 
-### Codecademy Learn Ruby Course
++ [Distilled - Web Scraping with Ruby and Nokogiri for Beginners](https://www.distilled.net/nokogiri-and-ruby-web-scraping/)
++ [Upwork - What is Web Scraping and How Can You Use it?](https://www.upwork.com/hiring/for-clients/web-scraping-tutorial/)
 
 Complete the following sections of the [Codecademy Learn Ruby course](https://www.codecademy.com/courses/learn-ruby):
 
 ## Useful Links
 
++ [Nokogiri RDoc](https://nokogiri.org/rdoc/index.html)
++ [RubyDoc - CSV Module](http://ruby-doc.org/stdlib-1.9.2/libdoc/csv/rdoc/CSV.html)
++ [Linda Vivah - THE BEGINNER'S GUIDE: Scraping in Ruby Cheat Sheet](https://medium.com/@LindaVivah/the-beginner-s-guide-scraping-in-ruby-cheat-sheet-c4f9c26d1b8c)
 + [Icalia Labs Internal Ruby Guides](https://github.com/IcaliaLabs/guides/tree/master/stack/ruby)
 + [Ruby Guides](https://www.rubyguides.com/)
 
