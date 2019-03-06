@@ -30,7 +30,7 @@ In order to complete this practice exercise, checkout the [practice.rb](/practic
 
 The following gems are used in these practice exercises:
 
-+ [csv](https://github.com/ruby/csv) 
++ [csv](https://github.com/ruby/csv)
 
 Each trainee will practice the previously covered theory by writing a Ruby script according to the following instructions/requirements:
 
