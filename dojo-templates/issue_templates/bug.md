@@ -28,7 +28,7 @@ When < action >, the system is < current behavior >
 |----------|:-------------:|------:|
 | firefox | 34 | Windows |
 
-## Files that might need to be modified or are being affected
+## Files that may need to be modified or are being affected
 
 - [app/models/user.rb](/)
 - [app/views/users/profile.html.erb](/)

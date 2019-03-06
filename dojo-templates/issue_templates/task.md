@@ -19,6 +19,6 @@ Please replace this text with a complete description of the TASK. You should be 
 
 This is a small checklist used to let the developer know when the task is considered done and ready to be shipped:
 
-[ ] Criteria 1
-[ ] Criteria 2
-[ ] Criteria 3
+[ ] Completion Criteria 1
+[ ] Completion Criteria 2
+[ ] Completion Criteria 3

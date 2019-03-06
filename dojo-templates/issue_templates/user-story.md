@@ -4,11 +4,13 @@ about: Use this to describe a new feature or user story for the project
 
 ---
 
-As < user type > I can < description of the feature > in order to < goal >
+# User Story Title
+
+As a/an < user type > I can < description of the feature > in order to < goal >
 
 ## Context
 
-You can add a bit more context for the feature, if there is already a plugin implementing this, or some helpful hints.
+ Please replace this text with a bit more context for the feature. Also mention whether an existing plugin or third-pary solution exists that already implements said feature, or even some helpful tips and hints on how to implement it.
 
 ## TO-DO
 
@@ -22,11 +24,11 @@ You can add a bit more context for the feature, if there is already a plugin imp
 - Acceptance criteria 2
 - Acceptance criteria 3
 
-## Files that might be modified or being affected
+## Files that may need to be modified or are being affected
 
-- `app/models/user.rb`
-- `app/views/users/profile.html.erb`
+- [app/models/user.rb](link/to/file.rb)
+- [app/views/users/profile.html.erb](/)
 
-## Relationships
+## Related Issues, Pull Requests, and Resources
 
-A list of related issued if apply or link to resources which the developer may need, such as the invision url for the design.
+A list of related issued if they exist or links to resources which the developer may need, such as the InVision url for a design reference.
