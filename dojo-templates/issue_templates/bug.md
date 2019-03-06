@@ -4,17 +4,21 @@ about: This will create a bug type issue
 
 ---
 
+# Bug Title
+
 Please change this by adding a complete description of the BUG, you may also add some screenshots, and if it is a web based development, you should give a bit more context on the browser version and OS.
 
 ## Steps to reproduce
 
-1.
+1. [Detailed step description]
 
 ## Expected behavior
-By < action >, the system should < expected behavior >
+
+When < action >, the system should < expected behavior >
 
 ## Current behavior
-By < action >, the system is < expected behavior >
+
+When < action >, the system is < current behavior >
 
 ## Context
 
@@ -22,9 +26,9 @@ By < action >, the system is < expected behavior >
 |----------|:-------------:|------:|
 | firefox | 34 | Windows |
 
-## Files that might be modified or being affected
+## Files that might need to be modified or are being affected
 
-- `app/models/user.rb`
-- `app/views/users/profile.html.erb`
+- [app/models/user.rb](/)
+- [app/views/users/profile.html.erb](/)
 
 ## Screenshots
