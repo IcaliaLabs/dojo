@@ -6,11 +6,14 @@ Although the Dojo is primarily concerned with training new Icalia Labs Software 
 
 ## The Dojo Stack
 
-The Dojo currently contains resources for learning the following technologies:
+The Dojo currently contains resources for learning the following tools and technologies:
 
-+ [Ruby (Rails, RSpec)](/ruby-training)
+### Backend
++ [Ruby (Rails, RSpec)](/backend/ruby-training)
 
-
+### Frontend
++ [HTML & CSS](/frontend/html-css-training)
+  
 ## Tech Stack Roadmap
 
 In the future, the Dojo will include resources related to the following technologies:
@@ -22,11 +25,8 @@ In the future, the Dojo will include resources related to the following technolo
 
 Please contact [@HectorMg](https://github.com/HectorMg) or [@kurenn](https://github.com/kurenn) if you're interested in contributing to either of these directories.
 
-
-# Credits
+## Credits
 
 ![Icalia Labs](https://avatars0.githubusercontent.com/u/2523244?v=3&s=200)
 
 The Dojo is maintained by [Icalia Labs](https://icalialabs.com)
-
-
