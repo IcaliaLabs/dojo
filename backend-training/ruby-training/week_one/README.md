@@ -1,16 +1,18 @@
 # Dojo Ruby Traning Plan - Week One
 
 ## Week Overview
+
 This directory contains a full week's worth of lessons, practice exercises and relevant resources that cover **Week One**'s training syllabus. Each numbered subdirectory contains resources (files, documents and relevant links) for the respective training day (starting at 01).
 
 ## Objective
 
 The main objective for the first week of training is for the trainee to become proficient in their use of the Ruby programming language for basic program development.
 
-By the end of the week, the trainee should be able to complete simple and slightly more complex command line applications in native Ruby. 
+By the end of the week, the trainee should be able to complete simple and slightly more complex command line applications in native Ruby.
 
 ## Table of contents
-* [00 - Setting Up](#markdown-header-setting-up)
+
+* [00 - Setting Up](/setting-up)
 * [01 - Introduction to the Ruby Language](01)
 * [02 - Functions and Methods in Ruby](02)
 * [03 - Data and Behavior Encapsulation in Ruby](03)
@@ -28,7 +30,7 @@ Trainees using macOS will find that Ruby is installed by default on their machin
 
 Please follow any of the following installation guides before continuing:
 
-### macOS 
+### macOS
 
 High Sierra and above
 
@@ -41,12 +43,11 @@ Debian/Ubuntu (apt package manager):
   
 `$ sudo apt-get install ruby-full`
 
-+ [Installing rbenv on Ubuntu](https://makandracards.com/makandra/28149-installing-rbenv-on-ubuntu)
+* [Installing rbenv on Ubuntu](https://makandracards.com/makandra/28149-installing-rbenv-on-ubuntu)
 
 ### Windows (please reconsider a Linux distribution)
 
-+ [Windows Ruby Installer](https://www.ruby-lang.org/en/documentation/installation/#rubyinstaller)
-
+* [Windows Ruby Installer](https://www.ruby-lang.org/en/documentation/installation/#rubyinstaller)
 
 ## Things to keep in mind about Ruby
 
