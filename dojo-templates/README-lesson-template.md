@@ -11,7 +11,7 @@ After this training stage the trainee should be able to:
 This lesson consists of a detailed exploration of the [LANGUAGE] syntax and conventions of .
 
 
-The [lesson.rb](/lesson.[EXT]) file in this directory contains commented code examples for all of these concepts.
+The [lesson.[EXT]](/lesson.[EXT]) file in this directory contains commented code examples for all of these concepts.
 
 ## Practice 
 
