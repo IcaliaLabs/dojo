@@ -42,3 +42,4 @@ Complete the following sections of the [FREE_COURSE_NAME](https://FREE_COURSE_LI
 
 + [Icalia Labs Internal Guides](https://github.com/IcaliaLabs/guides/)
 + [Official LANGUAGE Guides](https://OFFICIAL_LANGUAGE_GUIDES)
++ [W3 Schools - HTML Layout Elements](https://www.w3schools.com/html/html_layout.asp)
