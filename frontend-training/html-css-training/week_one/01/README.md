@@ -1,4 +1,4 @@
-# 00 - Introduction to HTML
+# 01 - Introduction to HTML
 
 ## Lesson Objectives
 
