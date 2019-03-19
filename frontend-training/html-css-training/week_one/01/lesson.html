@@ -1,0 +1,126 @@
+<!-- Introduction to the Hypertext Markup Language (HTML) -->
+
+<!-- This is a comment. Like in programming languages, comments
+     are not considered part of the markup and are ignored by any processing entities
+     (browsers, parsers, readers). Anything placed between the opening and closing arrows
+     will not appear in your rendered HTML. -->
+
+<!--  DOCTYPE Declaration: -->
+<!--
+The DOCTYPE declaration below must be the first thing 
+(other than comments such as this one) to appear in your
+static HTML documents. The DOCTYPE declaration tells the browser
+what version of HTML the page is written in. 
+More info on DTD: https://www.w3schools.com/tags/tag_doctype.asp
+-->
+<!DOCTYPE html> <!-- This is the DOCTYPE Declaration -->
+
+<html>
+<!-- Opening html tag: indicates the contents of the html file -->
+
+<head>
+    <!-- Opening head tag: Contains meta-data and asset imports -->
+    <title>Icalia Labs Dojo | Introduction to HTML</title> <!-- Title tags: Set web-page title on browser tab -->
+    <meta charset="UTF-8"><!-- Meta tags: Set meta-data about document -->
+</head> <!-- Closing head tag -->
+
+<body>
+    <!-- Opening body tag: contains all the elements that show up -->
+    <nav>
+        <!-- Opening nav tag: contains elements related to navigation (links/anchors) -->
+        <a href="#">Home</a> <!-- Dead Anchor: Scrolls to top of page when clicked-->
+        <a href="#contributors">Contributors</a> <!-- Linked Anchor: Scrolls to element with #id when clicked -->
+        <a href="#stack">Stack</a>
+        <a href="#roadmap">Roadmap</a>
+        <a href="#contact">Contact</a>
+    </nav> <!-- Closing nav tag -->
+    <main>
+        <!-- Opening main tag: Tells search engines what the site's main content is (unique) -->
+        <h1>The Icalia Labs Dojo</h1> <!-- Header tags (h1-h6) used to give text importance and default style -->
+        <h2>Software Development Trainee Program</h2>
+        <!-- h2 tag is lower than h1 in hierarchy (thus smaller by default)-->
+        <img src="https://avatars0.githubusercontent.com/u/2523244?v=3&s=200" alt="IL logo">
+        <!-- Image tag with absolute URL -->
+        <p>
+            <!-- paragraph (p) tags are used to create a block text element -->
+            The Dojo is Icalia Labs' software development trainee program.It was designed with the purpose of
+            standardizing the basic programming (front and backend) and software engineering skills level required
+            of new Icaliers before joining new or existing software development projects.
+        </p> <!-- multiple paragraphs to separate text (like in any document) -->
+        Although the Dojo is primarily concerned with training new Icalia Labs Software Engineering Interns,
+        any Icalier, at any level, will find useful guides, information, practice exercises and example code
+        within this repository.
+        </p>
+        <span>
+            <!-- span elements contain in-line elements (unlike divs which contain block elements) -->
+            Check out our
+            <a href="https://github.com/IcaliaLabs/dojo">
+                <!-- Anchor (<a>) tags allow you to link to other web pages as well -->
+                Public GitHub Repository
+            </a>
+        </span> <!-- closing span tag -->
+        <section id="contributors">
+            <!-- section containers divide the contents into sections with particular subjects -->
+            <h3>Dojo Contributors</h3> <!-- Another (lower hierarchy) heading (h3) -->
+            <ul>
+                <!-- Unordered list container (bullets by default) -->
+                <li>Héctor Morales</li> <!-- list element: will appear as indented bullet inside <ul> tags -->
+                <li>Abraham Kuri</li>
+            </ul> <!-- closing unordered list tag-->
+        </section> <!-- closing section tag -->
+        <section id="stack">
+            <h3>Dojo Training Stack (ranked by size)</h3>
+            <ol>
+                <!-- Ordered list container (numbered by default) -->
+                <li>Ruby</li> <!-- list element: will appear as indented numbered entry inside <ol> tags -->
+                <li>HTML & CSS</li>
+            </ol><!-- closing ordered list tag -->
+        </section>
+        <section id="roadmap">
+            <h3>Dojo Roadmap</h3>
+            <table> <!-- Table tags: contents will appear as tables (rows and cells) -->
+                <thead> <!-- Table Header Tags: A row that appears as the table header (attribute names) -->
+                    <th>Technology</th> <!-- Table Header Cell element: A cell in the header to represent the column attribute -->
+                    <th>Estimated Start Date</th>
+                    <th>Estimated End Date</th>
+                    <th>Current Status</th>
+                </thead> <!-- closing table header tag -->
+                <tbody> <!-- Table Body Tags: Hold the table's content (rows) -->
+                    <tr> <!-- Table Row Tags: Each represents a row in the table (contain cells) -->
+                        <td>Ruby</td> <!-- Table cell tags: Holds information in specific column of a specific row -->
+                        <td>Jan 2019</td> <!-- The amount of cells in each row should match amount of <th> elements -->
+                        <td>Apr 2019</td>
+                        <td>In Development</td>
+                    </tr><!-- closing table row tag: marks end of row-->
+                    <tr>
+                        <td>HTML & CSS</td>
+                        <td>March 2019</td>
+                        <td>May 2019</td>
+                        <td>In Development</td>
+                    </tr>
+                    <tr>
+                        <td>React</td>
+                        <td>May 2019</td>
+                        <td>Aug 2019</td>
+                        <td>Not Started</td>
+                    </tr>
+                </tbody><!-- closing table body tag -->
+            </table><!-- closing table tag-->
+        </section>
+        <section id="contact">
+            <h3>Contact</h3>
+            <h4>Have any questions, suggestions or comments? Drop us a line!</h4> <!-- Another (lower priority) heading -->
+            <h4>Héctor Morales - Icalia Labs Dojo Lead</h4>
+            <ul>
+                <li>hectormg@icalialabs.com</li>
+            </ul>
+            <h4>Abraham Kuri - Icalia Labs CTO</h4>
+            <ul>
+                <li>kurenn@icalialabs.com</li>
+            </ul>
+        </section>
+    </main>
+</body>
+<footer></footer>
+
+</html> <!-- Closing html tag -->
