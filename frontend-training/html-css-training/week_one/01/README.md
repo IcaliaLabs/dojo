@@ -53,6 +53,8 @@ In this exercise, you will start to create your own web developer portfolio by w
    7. Layout and grouping tags (esp. `<div>`, `<main>`, `<section>`, and `<span>`)
    8. Tables and forms are optional but encouraged
 
+Check out the [practice/](/practice/) subdirectory in this directory, which you can use to start building your static portfolio.
+
 ## Self Study
 
 ### Codecademy Introduction to HTML Course
