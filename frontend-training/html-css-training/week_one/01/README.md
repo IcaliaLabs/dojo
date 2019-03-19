@@ -25,7 +25,7 @@ This lesson consists of a detailed exploration of the HTML syntax, elements and 
   + Table Tags: `<table>`, `<thead>`, `<tbody>`, `<th>`, `<tr>`, `<td>`
   + Form Tags: `<form>`, `<input>`, `<button>`
 
-The [lesson.html](/lesson.html) file in this directory contains commented code examples for all of these concepts. This file can also be opened in the browser to demonstrate the effects of the HTML markup.
+The [lesson.html](/lesson.html) file in this directory contains commented code examples for all of these concepts. The [index.html](/index.html) file has the exact same markup without the comments. These files can also be opened in the browser to demonstrate the effects of the HTML markup.
 
 ## Practice
 
