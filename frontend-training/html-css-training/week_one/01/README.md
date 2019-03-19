@@ -19,6 +19,7 @@ This lesson consists of a detailed exploration of the HTML syntax, elements and 
   + Heading Tags: `<h1>`,`<h2>`,`<h3>`, `<h4>`, `<h5>`, `<h6>`
   + Paragraph Tags: `<p>`
   + Image Tags: `<img>`
+  + Anchor Tags: `<a>`
   + List Tags: `<ul>`, `<ol>`, `<il>`
   + Layout and Grouping Tags: `<div>`, `<main>`, `<section>`, `<span>`, `<header>`, `<footer>`, etc.
   + Table Tags: `<table>`, `<thead>`, `<tbody>`, `<th>`, `<tr>`, `<td>`
@@ -28,18 +29,46 @@ The [lesson.html](/lesson.html) file in this directory contains commented code e
 
 ## Practice
 
-In order to complete this practice exercise, checkout the [practice.[EXT]](/practice.[EXT]) file for the exercise template.
+In order to complete this practice exercise, checkout the [practice.html(/practice.html) file for the exercise template.
 
 Each trainee will practice the previously covered theory by writing a Ruby script according to the following instructions/requirements:
 
+In this exercise, you will start to create your own web developer portfolio by writing all the necessary basic markup.
+
+*For this exercise, only the structure is mandatory. Copy (content text) placeholders (Lorem Ipsum for text, placehold.it for images) may be used.*
+
+1. Your web portfolio can be either a single page with different sections or multiple linked pages.
+2. You must (at least) include the following sections (the names don't have to match):
+   1. Landing page (Home)
+   2. About Me (Bio)
+   3. Projects (Experience/CV)
+   4. Contact (E-mail and phone info or contact form)
+3. You must (at least) use the following HTML elements:
+   1. `<html>`, `<body`, `<header>`, `<footer>` tags
+   2. Heading tags
+   3. Paragraph tags
+   4. Image tags
+   5. Anchor tags (links)
+   6. List tags
+   7. Layout and grouping tags (esp. `<div>`, `<main>`, `<section>`, and `<span>`)
+   8. Tables and forms are optional but encouraged
+
 ## Self Study
 
-### [FREE COURSE LINKS]
+### Codecademy Introduction to HTML Course
 
-Complete the following sections of the [FREE_COURSE_NAME](https://FREE_COURSE_LINK):
+Complete the following sections of the [Codecademy Introduction to HTML course](https://www.codecademy.com/learn/learn-html):
+
++ **Section 1 - Learn HTML: Elements and Structure**
+  + Interactive Lesson 1: [Introduction to HTML](https://www.codecademy.com/courses/learn-html/lessons/intro-to-html)
+  + Interactive Lesson 2: [HTML Document Standards](https://www.codecademy.com/courses/learn-html/lessons/common-html-elements)
+  
++ **Section 2 - Learn HTML: Tables**
+  + Interactive Lesson 3: [Tables](https://www.codecademy.com/courses/learn-html/lessons/tables/)
 
 ## Useful Links
 
 + [Icalia Labs Internal Guides](https://github.com/IcaliaLabs/guides/)
-+ [Official LANGUAGE Guides](https://OFFICIAL_LANGUAGE_GUIDES)
++ [W3 Schools - HTML Tutorial](https://www.w3schools.com/html/)
++ [W3 Schools - Introduction to HTML](https://www.w3schools.com/html/html_intro.asp)
 + [W3 Schools - HTML Layout Elements](https://www.w3schools.com/html/html_layout.asp)
