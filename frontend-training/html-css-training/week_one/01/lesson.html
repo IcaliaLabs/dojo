@@ -110,17 +110,26 @@ More info on DTD: https://www.w3schools.com/tags/tag_doctype.asp
         <section id="contact">
             <h3>Contact</h3>
             <h4>Have any questions, suggestions or comments? Drop us a line!</h4> <!-- Another (lower priority) heading -->
-            <h4>Héctor Morales - Icalia Labs Dojo Lead</h4>
-            <ul>
-                <li>hectormg@icalialabs.com</li>
-            </ul>
-            <h4>Abraham Kuri - Icalia Labs CTO</h4>
-            <ul>
-                <li>kurenn@icalialabs.com</li>
-            </ul>
+            <form action="email">
+                <div> <!-- Regular Div Tag: Block element containers -->
+                    <label for="email">Email</label> <!-- Label element for form input -->
+                    <br> <!-- Break line element: Separates two in-line elements -->
+                    <input type="email" placeholder="example@gmail.com"> <!-- Input (type: email) tag: Creates an input field of the given type for a form -->
+                </div> <!-- closing div tag -->
+                <div>
+                    <label for="message">Question or comment</label>
+                    <br>  
+                    <textarea name="message" cols="30" rows="10"></textarea> <!-- Textarea tag: Like input type "text" but for multi-lined text fields -->
+                </div>
+                <div>
+                    <input type="submit"> <!-- Generic submit button-->
+                </div>
+            </form> <!-- closing form tag -->
         </section>
     </main>
 </body>
-<footer></footer>
+<footer> <!-- Footer element for holding info such as copryright and addresses-->
+    Copyright &copy Icalia Labs 2019
+</footer>
 
 </html> <!-- Closing html tag -->
