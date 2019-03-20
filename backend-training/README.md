@@ -4,7 +4,7 @@
 
 The Dojo currently contains resources for learning the following backend development tools and technologies:
 
-+ [Ruby (Rails, RSpec)](/backend/ruby-training)
++ [Ruby (Rails, RSpec)](/ruby-training)
 
 ## Tech Stack Roadmap
 
