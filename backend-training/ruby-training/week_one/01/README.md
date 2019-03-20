@@ -28,9 +28,9 @@ After this training stage the trainee should be able to:
 
 The [lesson.rb](lesson.rb) file in this directory contains commented code examples for all of these concepts.
 
-## Practice 
+## Practice
 
-In order to complete this practice exercise, checkout the [practice.rb](/practice.rb) file for the exercise template.
+In order to complete this practice exercise, checkout the [practice.rb](practice.rb) file for the exercise template.
 
 Each trainee will practice the previously covered theory by writing a Ruby script according to the following instructions/requirements. Each step represents a different "step" in the script:
 
@@ -46,7 +46,7 @@ Each trainee will practice the previously covered theory by writing a Ruby scrip
 4. Add a friends key to each developer for which the value is a hash describing each friend (only store their name).
 5. Print the developer profile matching the following format:
 
-   ```bash
+   ```text
    Abraham Kuri is a 29 year old developer with 3 friends and is able to cook, do magic, ride a bike.
    ```
 
@@ -57,17 +57,17 @@ Each trainee will practice the previously covered theory by writing a Ruby scrip
 Complete the following sections of the [Codecademy Learn Ruby course](https://www.codecademy.com/courses/learn-ruby):
 
 + **Section 1: Introduction to Ruby**
-	+ Interactive Lesson 1: [Introduction to Ruby](https://www.codecademy.com/courses/learn-ruby/lessons/introduction-to-ruby/exercises/overview--sneak-peek)
-	+ Interactive Lesson 2: [Putting the Form in the Formatter](https://www.codecademy.com/courses/learn-ruby/lessons/putting-the-form-in-formatter/exercises/what-youll-be-building?)
+  + Interactive Lesson 1: [Introduction to Ruby](https://www.codecademy.com/courses/learn-ruby/lessons/introduction-to-ruby/exercises/overview--sneak-peek)
+  + Interactive Lesson 2: [Putting the Form in the Formatter](https://www.codecademy.com/courses/learn-ruby/lessons/putting-the-form-in-formatter/exercises/what-youll-be-building?)
 + **Section 2: Control Flow in Ruby**
-	+ Interactive Lesson 3: [Control Flow in Ruby](https://www.codecademy.com/courses/learn-ruby/lessons/control-flow-in-ruby/exercises/how-it-works?)
-	+ Interactive Lesson 4: [Thith Meanth War!](https://www.codecademy.com/courses/learn-ruby/lessons/thith-meanth-war/exercises/what-youll-be-building-1)
+  + Interactive Lesson 3: [Control Flow in Ruby](https://www.codecademy.com/courses/learn-ruby/lessons/control-flow-in-ruby/exercises/how-it-works?)
+  + Interactive Lesson 4: [Thith Meanth War!](https://www.codecademy.com/courses/learn-ruby/lessons/thith-meanth-war/exercises/what-youll-be-building-1)
 + **Section 3: Looping with Ruby**
-	+ Interactive Lesson 5: [Loops & Iterators](https://www.codecademy.com/courses/learn-ruby/lessons/loops-iterators/exercises/the-while-loop)
-	+ Interactive Lesson 6: [Redacted!](https://www.codecademy.com/courses/learn-ruby/lessons/redacted/exercises/what-youll-be-building-2)
+  + Interactive Lesson 5: [Loops & Iterators](https://www.codecademy.com/courses/learn-ruby/lessons/loops-iterators/exercises/the-while-loop)
+  + Interactive Lesson 6: [Redacted!](https://www.codecademy.com/courses/learn-ruby/lessons/redacted/exercises/what-youll-be-building-2)
 + **Section 4: Arrays and Hashes**
-	+ Interactive Lesson 7: [Data Structures](https://www.codecademy.com/courses/learn-ruby/lessons/data-structures/exercises/creating-arrays)
-	+ Interactice Lesson 8: [Create a Histogram](https://https://www.codecademy.com/courses/learn-ruby/lessons/create-a-histogram/exercises/what-youll-be-building-3)
+  + Interactive Lesson 7: [Data Structures](https://www.codecademy.com/courses/learn-ruby/lessons/data-structures/exercises/creating-arrays)
+  + Interactice Lesson 8: [Create a Histogram](https://https://www.codecademy.com/courses/learn-ruby/lessons/create-a-histogram/exercises/what-youll-be-building-3)
 
 ## Useful Links
 
@@ -76,5 +76,3 @@ Complete the following sections of the [Codecademy Learn Ruby course](https://ww
 + [TryRuby: Learn programming with Ruby](https://ruby.github.io/TryRuby/)
 + [Icalia Labs Internal Ruby Guides](https://github.com/IcaliaLabs/guides/tree/master/stack/ruby)
 + [Ruby Guides](https://www.rubyguides.com/)
-
-
