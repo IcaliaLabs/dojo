@@ -10,11 +10,11 @@ The Dojo currently contains resources for learning the following tools and techn
 
 ### Backend
 
-+ [Ruby (Rails, RSpec)](/backend-training/ruby-training)
++ [Ruby (Rails, RSpec)](backend-training/ruby-training)
 
 ### Frontend
 
-+ [HTML & CSS](/frontend-training/html-css-training)
++ [HTML & CSS](frontend-training/html-css-training)
   
 ## Tech Stack Roadmap
 
