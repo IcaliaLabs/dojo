@@ -10,11 +10,11 @@ The Dojo currently contains resources for learning the following tools and techn
 
 ### Backend
 
-+ [Ruby (Rails, RSpec)](/backend/ruby-training)
++ [Ruby (Rails, RSpec)](/backend-training/ruby-training)
 
 ### Frontend
 
-+ [HTML & CSS](/frontend/html-css-training)
++ [HTML & CSS](/frontend-training/html-css-training)
   
 ## Tech Stack Roadmap
 
@@ -29,10 +29,10 @@ In the future, the Dojo will include resources related to the following technolo
 
 + Javscript (React, Ember)
 
-Please contact [@HectorMg](https://github.com/HectorMg) or [@kurenn](https://github.com/kurenn) if you're interested in contributing to either of these directories.
+Please contact [@technical-boy](https://github.com/technical-boy) or [@kurenn](https://github.com/kurenn) if you're interested in contributing to either of these directories.
 
 ## Credits
 
 ![Icalia Labs](https://avatars0.githubusercontent.com/u/2523244?v=3&s=200)
 
-The Dojo is maintained by [Icalia Labs](https://icalialabs.com)
+The Dojo is maintained by [Icalia Labs](https://github.com/IcaliaLabs)
