@@ -2,14 +2,15 @@
 
 ## Lesson Objectives
 
-After this training stage the trainee should be able to: 
+After this training stage the trainee should be able to:
+
 + Correctly utilize the basic syntax and semantics of the Ruby language
 + Understand the meaning of the phrase **"Everything in Ruby is an Object"**
 + Execute simple Ruby scripts in their own operating system's command line
 + Write basic Ruby code following both the Ruby language's and Icalia Labs' internal style and conventions
   
-
 ## Lesson
+
  Extensive introduction into the basic syntactical, semantical and morphological aspects of the language.
 
 + Explain and demo IRB
@@ -25,7 +26,7 @@ After this training stage the trainee should be able to:
 + Ranges
 + Hello, world!
 
-The [lesson.rb](/lesson.rb) file in this directory contains commented code examples for all of these concepts.
+The [lesson.rb](lesson.rb) file in this directory contains commented code examples for all of these concepts.
 
 ## Practice 
 
@@ -36,16 +37,18 @@ Each trainee will practice the previously covered theory by writing a Ruby scrip
 1. [Prompt the user]( http://ruby-doc.org/docs/ruby-doc-bundle/Tutorial/part_02/user_input.html) for the name and age of each of the developers in the room / intern pod. Strip trailing chars of input, look for the appropriate function [here](http://ruby-doc.org/core-2.4.1/String.html).
 
 2. Store each developer in an array of hashes ***(age must be an integer)*** , e.g:
-	``` 
-	developers = [{ name: "Walter", age: 25 }, { name: "Abraham", age: 29 }]
-	```
+
+   ```ruby
+   developers = [{ name: "Walter", age: 25 }, { name: "Abraham", age: 29 }]
+   ```
 
 3. Add a skills array to each developer in the hash.
 4. Add a friends key to each developer for which the value is a hash describing each friend (only store their name).
 5. Print the developer profile matching the following format:
-```
-Abraham Kuri is a 29 year old developer with 3 friends and is able to cook, do magic, ride a bike.
-```
+
+   ```bash
+   Abraham Kuri is a 29 year old developer with 3 friends and is able to cook, do magic, ride a bike.
+   ```
 
 ## Self Study
 

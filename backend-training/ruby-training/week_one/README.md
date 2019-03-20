@@ -12,7 +12,7 @@ By the end of the week, the trainee should be able to complete simple and slight
 
 ## Table of contents
 
-* [00 - Setting Up](/setting-up)
+* [00 - Setting Up](#setting-up)
 * [01 - Introduction to the Ruby Language](01)
 * [02 - Functions and Methods in Ruby](02)
 * [03 - Data and Behavior Encapsulation in Ruby](03)
@@ -59,8 +59,6 @@ Debian/Ubuntu (apt package manager):
 * It always returns some object, no `void` methods
 * `dot-notation` is always present
 
-
-
 ## Icalia Labs Ruby Code conventions
 
 * Use snake case for variable and method naming
@@ -71,6 +69,5 @@ Debian/Ubuntu (apt package manager):
   should end in a question mark.
 * The names of potentially "dangerous" methods (i.e. methods that modify `self` or the
   arguments, `exit!`, etc.) should end with an exclamation mark.
-
 
 If you want to know more about how we code Ruby at Icalia, check out our [guides](https://github.com/IcaliaLabs/guides/tree/master/stack/ruby).
