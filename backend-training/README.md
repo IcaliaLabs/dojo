@@ -13,4 +13,4 @@ In the future, the Dojo will include resources related to the following backend 
 + Python (Django)
 + Javascript (Node)
 
-Please contact [@HectorMg](https://github.com/HectorMg) or [@kurenn](https://github.com/kurenn) if you're interested in contributing to either of these directories.
+Please contact [@technical-boy](https://github.com/technical-boy) or [@kurenn](https://github.com/kurenn) if you're interested in contributing to either of these directories.
