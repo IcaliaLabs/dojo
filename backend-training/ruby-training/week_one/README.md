@@ -18,9 +18,6 @@ By the end of the week, the trainee should be able to complete simple and slight
 * [03 - Data and Behavior Encapsulation in Ruby](03)
 * [04 - Ruby's Libraries: Working with Gems](04)
 * [05 - IO: Working with Files in Ruby](05)
-* [06 - Web Scraping in Ruby](06)
-* [07 - Serving Web Pages with Ruby using Rack and ERB](07)
-* [08 - Your first Blog Ruby Web App](08)
 
 ## Setting Up
 

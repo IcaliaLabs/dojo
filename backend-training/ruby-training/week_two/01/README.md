@@ -1,4 +1,4 @@
-# 06 - Web Scraping in Ruby
+# 01- Web Scraping in Ruby
 
 ## Lesson Objectives
 

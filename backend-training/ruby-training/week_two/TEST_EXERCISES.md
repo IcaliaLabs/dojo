@@ -1,9 +1,9 @@
 # Testing & TDD
 
 Below you will find a list with a set of exercises to put your test
-skills into the test, some ma be easy, and some may be hard.
+skills into the test, some may be easy, and some may be hard.
 
-## Exercises list:
+## Exercises list
 
 * [00](test_exercises/00)
 * [01](test_exercises/01)
@@ -14,5 +14,5 @@ skills into the test, some ma be easy, and some may be hard.
 
 ### Recursos
 
-* [¿What is RSpec?](WHAT_IS_RSPEC.md)
+* [¿What is RSpec?](INTRODUCTION_TO_RSPEC.md)
 
