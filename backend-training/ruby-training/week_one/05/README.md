@@ -2,11 +2,11 @@
 
 ## Lesson Objectives
 
-After this training stage the trainee should be able to: 
+After this training stage the trainee should be able to:
 
 + Understand the utility in using files (text and csv particularly) to store, access and manipulate data for simple solutions that don't require complex database systems.
 + Understand that computer all files are essentially text files, while proprietary extensions usually involve some form of encoding.
-+ Load text files from the file system into a Ruby script through Ruby's `File ` module.
++ Load text files from the file system into a Ruby script through Ruby's `File` module.
 + Read the contents from the loaded text file and use them in the script
 + Modify, extend, write and add content to the loaded file in an automatic way through a Ruby script.
 + Handle input and output that deals with Comma-Separated Value files, particularly with the [csv](https://github.com/ruby/csv) Ruby gem.
@@ -22,11 +22,11 @@ This lesson consists of a detailed exploration of the Ruby syntax and convention
 + Detail on the mode attribute for File.open() (check [IO Open Mode](https://ruby-doc.org/core-2.2.0/IO.html#method-c-new) for details on the possible values)
 + Explain the CSV format, as well as how to read from CSV files with the CSV gem.
 
-The [lesson.rb](/lesson.rb) file in this directory contains commented code examples for all of these concepts.
+The [lesson.rb](lesson.rb) file in this directory contains commented code examples for all of these concepts.
 
 ## Practice
 
-In order to complete this practice exercise, checkout the [practice.rb](/practice.rb) file for the exercise template. This practice is a two-part exercise.
+In order to complete this practice exercise, checkout the [practice.rb](practice.rb) file for the exercise template. This practice is a two-part exercise.
 
 The following gems are used in these practice exercises:
 

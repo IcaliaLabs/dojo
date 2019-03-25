@@ -25,7 +25,7 @@ This lesson consists of a detailed exploration of the HTML syntax, elements and 
   + Table Tags: `<table>`, `<thead>`, `<tbody>`, `<th>`, `<tr>`, `<td>`
   + Form Tags: `<form>`, `<input>`, `<button>`
 
-The [lesson.html](/lesson.html) file in this directory contains commented code examples for all of these concepts. The [index.html](/index.html) file has the exact same markup without the comments. These files can also be opened in the browser to demonstrate the effects of the HTML markup.
+The [lesson.html](lesson.html) file in this directory contains commented code examples for all of these concepts. The [index.html](index.html) file has the exact same markup without the comments. These files can also be opened in the browser to demonstrate the effects of the HTML markup.
 
 ## Practice
 
@@ -53,7 +53,7 @@ In this exercise, you will start to create your own web developer portfolio by w
    7. Layout and grouping tags (esp. `<div>`, `<main>`, `<section>`, and `<span>`)
    8. Tables and forms are optional but encouraged
 
-Check out the [practice/](/practice/) subdirectory in this directory, which you can use to start building your static portfolio.
+Check out the [practice/](practice/) subdirectory in this directory, which you can use to start building your static portfolio.
 
 ## Self Study
 

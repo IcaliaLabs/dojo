@@ -1,8 +1,8 @@
 # HTML & CSS Training Program
 
-## Contents:
+## Contents
 
-+ **Week One:** [Introduction to Markup and Styles](/week_one)
++ **Week One:** [Introduction to Markup and Styles](week_one)
 + **Week Two:** []()
 
 ## Contributing

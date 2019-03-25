@@ -18,11 +18,11 @@ This lesson consists of a detailed exploration of the Ruby syntax and convention
 + Explain the  `css` property of the DOM Nokogiri object and how it retuns iterable collections of html elements that match the `html tag`, `css class`, or `unique id` sent as a parameter.
 + Demonstrate how to iterate and parse said HTML element collections into text or Ruby objects that can be used and easily manipulated in the script.
 
-The [lesson.rb](/lesson.rb) file in this directory contains commented code examples for all of these concepts.
+The [lesson.rb](lesson.rb) file in this directory contains commented code examples for all of these concepts.
 
 ## Practice
 
-In order to complete this practice exercise, checkout the [practice.rb](/practice.rb) file for the exercise template. This practice is a two-part exercise.
+In order to complete this practice exercise, checkout the [practice.rb](practice.rb) file for the exercise template. This practice is a two-part exercise.
 
 The following gems are used in these practice exercises:
 
@@ -65,5 +65,3 @@ Complete the following sections of the [Codecademy Learn Ruby course](https://ww
 + [Linda Vivah - THE BEGINNER'S GUIDE: Scraping in Ruby Cheat Sheet](https://medium.com/@LindaVivah/the-beginner-s-guide-scraping-in-ruby-cheat-sheet-c4f9c26d1b8c)
 + [Icalia Labs Internal Ruby Guides](https://github.com/IcaliaLabs/guides/tree/master/stack/ruby)
 + [Ruby Guides](https://www.rubyguides.com/)
-
-
