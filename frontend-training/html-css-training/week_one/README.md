@@ -31,9 +31,9 @@ At Icalia Labs, we emphasize the importance of making sure our markup and styles
 
 ### Web Developer Tools
 
-When it comes to writing markup and styles, some of the most useful tools for web designers and developers are the browsers' web development tools. These tools vary from browser to browser, but in general, they allow us to see the markup from which the websites we visit are rendered, as well as the cascading-stylesheet (css) rules that are responsible for styling them. 
+When it comes to writing markup and styles, some of the most useful tools for web designers and developers are the browsers' web development tools. These tools vary from browser to browser, but in general, they allow us to see the markup from which the websites we visit are rendered, as well as the cascading-stylesheet (css) rules that are responsible for styling them.
 
-These tools allow us to both learn from other people's/organization's work as well as test and improve our own markup and styles. The following is a list and introduction to the web developer tools in each of the above mentioned browsers.
+These tools allow us to both learn from other people's/organization's work as well as test and improve our own markup and styles.
 
 ### Chrome Developer Tools
 

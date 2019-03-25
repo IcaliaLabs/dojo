@@ -29,9 +29,9 @@ The [lesson.html](lesson.html) file in this directory contains commented code ex
 
 ## Practice
 
-In order to complete this practice exercise, checkout the [practice.html(/practice.html) file for the exercise template.
+Each trainee will practice the previously covered theory by writing markup (specifically HTML) according to the following instructions/requirements:
 
-Each trainee will practice the previously covered theory by writing a Ruby script according to the following instructions/requirements:
+### Web Developer Portfolio
 
 In this exercise, you will start to create your own web developer portfolio by writing all the necessary basic markup.
 
