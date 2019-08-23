@@ -6,7 +6,7 @@ After this stage the trainee should be able to:
 
 + Understand what the display flex property is.
 + Learn all the properties that depend on the flex property and their uses.
-+ Understand basic layouts for different kind of elements like navgations, blogs, sidebars and cards using flex.
++ Understand basic layouts for different kind of elements like navigations, blogs, sidebars and cards using flex.
 
  ## Lesson
 
