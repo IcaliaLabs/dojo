@@ -18,12 +18,13 @@ This lesson consists of a detailed exploration of the CSS syntax, selectors decl
 + Explain and demo:
   + Displays: `inline`, `block`, `inline-block`, `none`, `flex`, `grid`
   + Positions: `static`, `relative`, `absolute`, `fixed`, `sticky`
-  + Box model: `padding`, `margin`, `box-sizing`
+  + Box model: `padding`, `margin`, `box-sizing`, `border`
 + Background: `background`, `background-color`, `background-repeat`, `background-size`, `background-position`, `background-image`
 + font: `font-size`, `font-family`, `line-height`.
 + Sizing: `height`, `width`, `min-height`, `max-height`, `min-width`, `max-width`
 + Values: `percentage %`, `px`, `rems`, `ems`, `color`, `rgb`, `rgba`, `#HEX`
-+ Shorthands: `margin-rigth`, 
++ Shorthands: `margin-rigth`, `padding-top`, etc.
+
 The [lesson.html](lesson.html) and [stylesheet.css](stylesheet.css) files in this directory contains commented code examples for all of these concepts. The [index.html](index.html) and it’s [stylesheet.css](stylesheet.css) file has the exact same markup without the comments. These files can also be opened in the browser to demonstrate the effects of the HTML markup and the CSS style.
 
 ## Practice
@@ -74,3 +75,4 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
 https://www.w3schools.com/cssref/default.asp
 https://www.w3schools.com/cssref/css_selectors.asp
 https://caniuse.com/
+http://learnlayout.com/

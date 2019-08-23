@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Icalia Labs Dojo | Introduction to CSS</title>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9b364e2293.js"></script> <!-- this scripts is needed for fontawesome icons -->
+    <link rel="stylesheet" href="assets/stylesheet.css">
+</head>
+
+<body>
+  <header class="menu">
+    <nav class="container">
+        <a href="#">Home</a>
+        <a href="#lesson">Lesson</a>
+        <a href="#dojo-info">Dojo</a>
+        <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <div class="banner">
+    <div class="banner--info">
+      <h1 class="separation--top-m">The Icalia Labs Dojo</h1>
+      <h2 class="separation--top-m">Software Development Trainee Program</h2>
+      <img class="separation--top-m" src="https://avatars0.githubusercontent.com/u/2523244?v=3&s=200" alt="IL logo">
+      <h2 class="separation--top-m">CSS Introduction</h2>
+    </div>
+  </div>
+  
+  <main id="dojo-info" class="container intro separation--top-m">
+    <section class="dojo--info">
+      <h3 class="text--color-secondary separation--top-m">The Icalia Labs Dojo</h3>
+      <p class="separation--top">
+        The Dojo is Icalia Labs' software development trainee program.It was designed with the purpose of
+        standardizing the basic programming (front and backend) and software engineering skills level required
+        of new Icaliers before joining new or existing software development projects.
+      </p>
+      <p class="separation--top">
+        Although the Dojo is primarily concerned with training new Icalia Labs Software Engineering Interns,
+        any Icalier, at any level, will find useful guides, information, practice exercises and example code
+        within this repository.
+      </p>
+      <span class="separation--top">Check out our <a class="text--color-secondary" href="https://github.com/IcaliaLabs/dojo">Public GitHub Repository</a></span>
+    </section>
+  </main>
+  <article class="container dojo separation--top-l">
+    <section id="contributors" class="dojo--card">
+      <div class="dojo--card-header">
+        <i class="fas fa-users icon"></i>
+        <h3>Dojo Contributors</h3>
+      </div>
+      <ul class="dojo--card-body">
+        <li>Héctor Morales</li>
+        <li>Abraham Kuri</li>
+        <li>Dante Ochoa</li>
+      </ul>
+    </section>
+  
+    <section id="stack" class="dojo--card">
+      <div class="dojo--card-header">
+        <i class="fas fa-cubes icon"></i>
+        <h3>Dojo Training Stack</h3>
+      </div>
+      <ol class="dojo--card-body">
+        <li>Ruby</li>
+        <li>HTML & CSS</li>
+      </ol>
+    </section>
+  
+    <section id="roadmap" class="dojo--card">
+      <div class="dojo--card-header">
+        <i class="fas fa-road icon"></i>
+        <h3>Dojo Roadmap</h3>
+      </div>
+      <table class="dojo--card-body">
+        <thead>
+          <th>Technology</th>
+          <th>Estimated Start Date</th>
+          <th>Estimated End Date</th>
+          <th>Current Status</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ruby</td>
+            <td>Jan 2019</td>
+            <td>Apr 2019</td>
+            <td>In Development</td>
+          </tr>
+          <tr>
+            <td>HTML & CSS</td>
+            <td>March 2019</td>
+            <td>May 2019</td>
+            <td>In Development</td>
+          </tr>
+          <tr>
+            <td>React</td>
+            <td>May 2019</td>
+            <td>Aug 2019</td>
+            <td>Not Started</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </article>
+  
+  <section id="contact" class="contact--box separation--top-l">
+    <div class="container">
+      <h3 class="contact--title">Contact</h3>
+      <h4 class="separation--top">Have any questions, suggestions or comments? Drop us a line!</h4>
+      <form action="email" class="separation--top">
+        <div>
+          <label class="text-bold" for="email">Email</label>
+          <br>
+          <input type="email" placeholder="example@gmail.com" class="input separation--top">
+        </div>
+        <div class="separation--top">
+          <label class="text-bold" for="message">Question or comment</label>
+          <br>  
+          <textarea name="message" cols="30" rows="10" class="input separation--top"></textarea>
+        </div>
+        <div>
+          <input type="submit" class="separation--top button">
+        </div>
+      </form>
+    </div>
+  </section>
+  
+  <footer class="footer">
+    <div  class="container footer--info">
+      <section id="contributors"> 
+        <h3 class="">Dojo Contributors</h3>
+        <ul>
+          <li>Héctor Morales</li>
+          <li>Abraham Kuri</li>
+          <li>Dante Ochoa</li>
+        </ul>
+      </section>
+      
+      <section id="stack">
+        <h3 class="">Dojo Training Stack</h3>
+        <ol>
+          <li>Ruby</li>
+          <li>HTML & CSS</li>
+        </ol>
+      </section>
+      <div>Copyright &copy Icalia Labs 2019</div>
+    </div>
+  </footer>
+</body>
+</html>
