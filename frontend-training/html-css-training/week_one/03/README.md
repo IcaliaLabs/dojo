@@ -1,5 +1,4 @@
 DAY 3 - FLEXBOX & LAYOUTS
-    https://flexboxfroggy.com/
 
 ## Lesson Objectives
 
@@ -15,8 +14,10 @@ This lesson consists of an introduction to flex to understand the basic principl
 
 + Explain and demo:
   + Display: `flex`
-  + `flex-direction`, `flex-wrap`, justify-content`, `align-items`, `order`, `flex-flow`, `align-content`, `order`, `align-self`.
+  + `flex-direction`, `flex-wrap`, `justify-content`, `align-items`, `order`, `flex-flow`, `align-content`, `order`, `align-self`.
 + Layout of basic UI web elements.
+
+The [lesson.html](lesson/lesson.html) and [lesson/stylesheet.css](lesson/assets/stylesheet.css) files in this directory contains commented code examples for all of these concepts. The [index.html](index.html) and it’s [stylesheet.css](assets/stylesheet.css) file has the exact same markup without the comments. These files can also be opened in the browser to demonstrate the effects of the HTML markup and the CSS style.
 
 ## Practice
 
