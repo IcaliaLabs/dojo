@@ -71,6 +71,7 @@ Complete the following sections of the [Codecademy Introduction to CSS course](h
  + Interactive Lesson 3: [Learn CSS: displays and Position] (https://www.codecademy.com/learn/learn-css/modules/learn-css-display-positioning)
 
 ## Useful Links
+
 https://cssspecificity.com/
 https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
 https://www.w3schools.com/cssref/default.asp
