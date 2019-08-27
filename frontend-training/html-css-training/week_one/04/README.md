@@ -31,8 +31,6 @@ The first thing that it’s important to see is the inputs for the px ratio, whe
 There is also the option to check different devices with height and widths predefined for popular devices like different versions of apple and android devices, with extra option of creating your own template.
 
 ![responsive mobile](assets/images/mobile-view.png)
-![iphone view](assets/images/mobile-iphone.png)
-![galaxy view](assets/images/mobile-galaxy.png)
 
 ## Practice
 
