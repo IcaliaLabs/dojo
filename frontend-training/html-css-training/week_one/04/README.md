@@ -20,17 +20,19 @@ This lesson will focus on making a web page responsive, this means that the page
 
 To see if a markup it’s responsive you can move width and height of the window and see how it responds to smaller size window.
 
-To see if the markup will work on a mobile devices you can use the inspect option on the browser, there will be a Responsive Design Mode.
+To see if the markup will work on a mobile devices you can use the inspect option on the browser, there will be a Responsive Design Mode with a cellphone icon.
 
 ![inspector](assets/images/inspector.png)
 
 The first thing that it’s important to see is the inputs for the px ratio, where you can change to see how the page looks on different pixel sizes.
 
-image
+![responsive view](assets/images/responsive-view.png)
 
 There is also the option to check different devices with height and widths predefined for popular devices like different versions of apple and android devices, with extra option of creating your own template.
 
-Image
+![responsive mobile](assets/images/mobile-view.png)
+![iphone view](assets/images/mobile-iphone.png)
+![galaxy view](assets/images/mobile-galaxy.png)
 
 ## Practice
 
