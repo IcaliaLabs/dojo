@@ -15,14 +15,14 @@ This lesson will focus on making a web page responsive, this means that the page
 
 + Learn the use the inspector mode of the browser.
 + Media query: `@media`, `screen`, `and`
-+ `min-width`, `max-width`, `min-height`, `max-height`.
++ `min-width`, `max-width`, `min-height`, `max-height`
 + `flex-wrap`
 
 To see if a markup it’s responsive you can move width and height of the window and see how it responds to smaller size window.
 
 To see if the markup will work on a mobile devices you can use the inspect option on the browser, there will be a Responsive Design Mode.
 
-image
+![inspector](assets/images/inspector.png)
 
 The first thing that it’s important to see is the inputs for the px ratio, where you can change to see how the page looks on different pixel sizes.
 
@@ -61,3 +61,4 @@ https://www.codecademy.com/learn/learn-responsive-design/modules/learn-responsiv
 
 https://www.w3schools.com/Css/css_rwd_mediaqueries.asp
 https://css-tricks.com/css-media-queries/
+ 
