@@ -45,25 +45,20 @@ In this exercise, you will continue to create your own web developer portfolio b
 
 *For this exercise, only the structure is mandatory. Copy (content text) placeholders (Lorem Ipsum for text, placehold.it for images) may be used.*
 
-1. All the points that were requested the past three days.
+1. All the points that were requested the past two days.
 
-2. Make a responsive design for the website and a mobile design.
-
-3. You must use the following CSS properties:
+2. You must use the following CSS properties:
   1. Media query
   2. `Flex-wrap`
-  3. Change rules for different views: `height`, `width`, `font-size`
-
-Check out the [practice/](practice/) subdirectory in this directory, which you can use to continue building your static portfolio.
+  3. Change, `height`, `width`, `font-size`, `%`, for mobile view
 
 ## Self Study
-
-## Code academy: Learn Responsive Design Lesson 1 and 2
-https://www.codecademy.com/learn/learn-responsive-design/modules/learn-responsive-design-module
 
 ## Responsive Web Design Principles: Introduction to the Responsive Web Design Challenge
 https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-principles
 
+## Code academy: Learn Responsive Design Lesson 1 and 2
+https://www.codecademy.com/learn/learn-responsive-design/modules/learn-responsive-design-module
 ## Useful links
 
 https://www.w3schools.com/Css/css_rwd_mediaqueries.asp
