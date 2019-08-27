@@ -31,8 +31,8 @@ The first thing that it’s important to see is the inputs for the px ratio, whe
 There is also the option to check different devices with height and widths predefined for popular devices like different versions of apple and android devices, with extra option of creating your own template.
 
 ![responsive mobile](assets/images/mobile-view.png)
-
-The [lesson.html](lesson/lesson.html) and [lesson/stylesheet.css](lesson/assets/stylesheet.css) files in this directory contains commented code examples for all of these concepts. The [index.html](index.html) and it’s [stylesheet.css](assets/stylesheet.css) file has the exact same markup without the comments. These files can also be opened in the browser to demonstrate the effects of the HTML markup and the CSS style.
+![iphone view](assets/images/mobile-iphone.png)
+![galaxy view](assets/images/mobile-galaxy.png)
 
 ## Practice
 
@@ -63,4 +63,3 @@ https://www.codecademy.com/learn/learn-responsive-design/modules/learn-responsiv
 
 https://www.w3schools.com/Css/css_rwd_mediaqueries.asp
 https://css-tricks.com/css-media-queries/
- 
