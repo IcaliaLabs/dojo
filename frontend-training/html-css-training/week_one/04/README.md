@@ -15,22 +15,22 @@ This lesson will focus on making a web page responsive, this means that the page
 
 + Learn the use the inspector mode of the browser.
 + Media query: `@media`, `screen`, `and`
-+ `min-width`, `max-width`, `min-height`, `max-height`
++ `min-width`, `max-width`, `min-height`, `max-height`.
 + `flex-wrap`
 
 To see if a markup it’s responsive you can move width and height of the window and see how it responds to smaller size window.
 
-To see if the markup will work on a mobile devices you can use the inspect option on the browser, there will be a Responsive Design Mode with a cellphone icon.
+To see if the markup will work on a mobile devices you can use the inspect option on the browser, there will be a Responsive Design Mode.
 
-![inspector](assets/images/inspector.png)
+image
 
 The first thing that it’s important to see is the inputs for the px ratio, where you can change to see how the page looks on different pixel sizes.
 
-![responsive view](assets/images/responsive-view.png)
+image
 
-There is also the option to check different devices with height and widths predefined for popular devices like different versions of apple and android devices, with extra options for creating your own template.
+There is also the option to check different devices with height and widths predefined for popular devices like different versions of apple and android devices, with extra option of creating your own template.
 
-![responsive mobile](assets/images/mobile-view.png)
+Image
 
 ## Practice
 
@@ -45,23 +45,18 @@ In this exercise, you will continue to create your own web developer portfolio b
 
 1. All the points that were requested the past two days.
 
-2. Make a responsive design for the website and a mobile design.
-
-3. You must use the following CSS properties:
+2. You must use the following CSS properties:
   1. Media query
   2. `Flex-wrap`
-  3. Change rules for different views: `height`, `width`, `font-size`
+  3. Change, `height`, `width`, `font-size`, `%`, for mobile view
 
 ## Self Study
 
-### Code academy: Learn Responsive Design Lesson 1 and 2
-
-https://www.codecademy.com/learn/learn-responsive-design/modules/learn-responsive-design-module
-
-### Responsive Web Design Principles: Introduction to the Responsive Web Design Challenge
-
+## Responsive Web Design Principles: Introduction to the Responsive Web Design Challenge
 https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-principles
 
+## Code academy: Learn Responsive Design Lesson 1 and 2
+https://www.codecademy.com/learn/learn-responsive-design/modules/learn-responsive-design-module
 ## Useful links
 
 https://www.w3schools.com/Css/css_rwd_mediaqueries.asp
