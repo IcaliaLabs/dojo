@@ -166,3 +166,84 @@ td:not(:first-child) {
   font-size: 40px;
   color: #cc093a;
 }
+
+.hide--on-big {
+  display: none;
+}
+
+.hide--on-small {
+  display: block;
+}
+
+.toggle {
+  display: none;
+}
+
+.dojo {
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 768px) {
+  
+  .hide--on-small{
+    display: none;
+  }
+
+  .hide--on-big {
+    display: block;
+  }
+  
+  .toggle:checked ~ .menu-big {
+    display: block;
+    width: 100%;
+  }
+
+  .menu {
+    font-size: 20px;
+  }
+
+  .menu--mobile {
+    cursor: pointer;
+  }
+
+  .menu-link {
+    display: block;
+    text-align: center;
+    padding: 30px 0;
+    box-sizing: border-box;
+  }
+
+  .menu-link:hover {
+    background-color: #cc093a;
+  }
+
+  .dojo--card {
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+  }
+
+  table {
+    font-size: 13px;
+  }
+
+  th:not(:first-child),
+  td:not(:first-child) {
+    padding-left: 15px;
+  }
+
+  .button {
+    width: 100%;
+  }
+ }
+
+ @media only screen and (min-width: 2500px) {
+   body {
+     width: 70%;
+     margin: auto;
+   }
+
+   .container--big {
+    width: 70%;
+   }
+ }
