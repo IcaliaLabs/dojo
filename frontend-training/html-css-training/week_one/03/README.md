@@ -42,7 +42,7 @@ In this exercise, you will continue to create your own web developer portfolio b
 3. You must (at least) use the following CSS flex properties:
 + `display:flex`, `flex-direction`, `flex-wrap`, justify-content`, `align-items`, `order`, `flex-flow`, `align-content`, `order`, `align-self`.
 
-Check out the [practice/](practice/) subdirectory in this directory, which you can use to start building your static portfolio.
+Check out the [practice/](practice/) subdirectory in this directory, which you can use to continue building your static portfolio.
 
 ## Self Study
 
