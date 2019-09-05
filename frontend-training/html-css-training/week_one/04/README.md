@@ -32,6 +32,8 @@ There is also the option to check different devices with height and widths prede
 
 ![responsive mobile](assets/images/mobile-view.png)
 
+The [lesson.html](lesson/lesson.html) and [lesson/stylesheet.css](lesson/assets/stylesheet.css) files in this directory contains commented code examples for all of these concepts. The [index.html](index.html) and it’s [stylesheet.css](assets/stylesheet.css) file has the exact same markup without the comments. These files can also be opened in the browser to demonstrate the effects of the HTML markup and the CSS style.
+
 ## Practice
 
 Each trainee will practice the previously covered theory by writing CSS code according to the following instructions/requirements:
@@ -43,7 +45,7 @@ In this exercise, you will continue to create your own web developer portfolio b
 
 *For this exercise, only the structure is mandatory. Copy (content text) placeholders (Lorem Ipsum for text, placehold.it for images) may be used.*
 
-1. All the points that were requested the past two days.
+1. All the points that were requested the past three days.
 
 2. Make a responsive design for the website and a mobile design.
 
@@ -51,6 +53,8 @@ In this exercise, you will continue to create your own web developer portfolio b
   1. Media query
   2. `Flex-wrap`
   3. Change rules for different views: `height`, `width`, `font-size`
+
+Check out the [practice/](practice/) subdirectory in this directory, which you can use to continue building your static portfolio.
 
 ## Self Study
 
