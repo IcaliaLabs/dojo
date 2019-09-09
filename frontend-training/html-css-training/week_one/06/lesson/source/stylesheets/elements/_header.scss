@@ -1,0 +1,15 @@
+.menu {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 0;
+  background-color: $color-primary;
+  color: $color-light;
+  font-weight: 700;
+
+  a {
+    margin-right: 16px;
+  }
+}

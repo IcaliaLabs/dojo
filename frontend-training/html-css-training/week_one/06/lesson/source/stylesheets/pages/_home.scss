@@ -1,0 +1,64 @@
+.banner {
+  box-sizing: border-box;
+  height: 93vh;
+  margin-top: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.dojo {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  &--info {
+    padding-top: 62px;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  
+  &--card {
+    box-sizing: border-box;
+    border: 1px solid $color-card-border; 
+    border-radius: 4px;
+    background: $color-card-body;
+  }
+  
+  &--card-header {
+    text-align: center;
+    background: $color-light;
+    border-bottom: 1px solid $color-card-border;
+    padding: 15px 30px;
+  }
+  
+  &--card-body {
+    padding: 15px 30px;
+  }
+  
+  &--list ol {
+    padding-left: 17px;
+  }
+}
+
+.icon {
+  font-size: 40px;
+  color: $color-primary-darken;
+}
+
+.contact {
+  &--box {
+    padding: 32px 0;
+    background-image: image-url('marvin-meyer-SYTO3xs06fU-unsplash.jpg'), linear-gradient( rgba($color-primary , 0.8 ) , rgba($color-primary-darken, 0.8));
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $color-light;
+    background-blend-mode: darken;
+  }
+  
+  &--title {
+    font-size: 24px;
+  }
+}
