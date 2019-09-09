@@ -7,7 +7,23 @@
   align-items: center;
   text-align: center;
 }
+//NAMING & COMPOUND SELECTORS
+/*
+As button css file we are seeing compound selectors that with SASS help us to group similar styles
+and name it depending on the element, block or group and then a description of the class.
 
+For the proper naming of classes we follow certain rules:
+1. Unique, meaningful names for a logical unit of style. Avoid excessive shorthand.
+  Example:
+    Good: .alert-box or .recents-intro or .button
+    Bad: .feature or .content or .btn
+
+2. Don't create a class name larger than three levels. The same thing with nesting we shouldn't
+have classes larger than three leves.
+  Example:
+    Good: .dojo--card-header
+    Bad: .dojo--card-header-primary
+*/
 .dojo {
   display: flex;
   justify-content: space-between;
