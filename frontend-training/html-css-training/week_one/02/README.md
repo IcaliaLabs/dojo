@@ -26,11 +26,7 @@ This lesson consists of a detailed exploration for the CSS syntax, selectors dec
 + Values: `percentage %`, `px`, `rems`, `ems`, `color`, `rgb`, `rgba`, `#HEX`
 + Shorthands: `margin-rigth`, `padding-top`, etc.
 
-<<<<<<< HEAD
 The [lesson.html](lesson/lesson.html) and [lesson/stylesheet.css](lesson/assets/stylesheet.css) files in this directory contains commented code examples for all of these concepts. The [index.html](index.html) and it’s [stylesheet.css](assets/stylesheet.css) file has the exact same markup without the comments. These files can also be opened in the browser to demonstrate the effects of the HTML markup and the CSS style.
-=======
-The [lesson.html](lesson/lesson.html) and [stylesheet.css](stylesheet.css) files in this directory contains commented code examples for all of these concepts. The [index.html](index.html) and it’s [stylesheet.css](stylesheet.css) file has the exact same markup without the comments. These files can also be opened in the browser to demonstrate the effects of the HTML markup and the CSS style.
->>>>>>> 08d5bd5... fix broken link
 
 ## Practice
 
