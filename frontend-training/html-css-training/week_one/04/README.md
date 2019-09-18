@@ -28,7 +28,7 @@ The first thing that it’s important to see is the inputs for the px ratio, whe
 
 ![responsive view](assets/images/responsive-view.png)
 
-There is also the option to check different devices with height and widths predefined for popular devices like different versions of apple and android devices, with extra option of creating your own template.
+There is also the option to check different devices with height and widths predefined for popular devices like different versions of apple and android devices, with extra options for creating your own template.
 
 ![responsive mobile](assets/images/mobile-view.png)
 
@@ -54,10 +54,12 @@ In this exercise, you will continue to create your own web developer portfolio b
 
 ## Self Study
 
-## Code academy: Learn Responsive Design Lesson 1 and 2
+### Code academy: Learn Responsive Design Lesson 1 and 2
+
 https://www.codecademy.com/learn/learn-responsive-design/modules/learn-responsive-design-module
 
-## Responsive Web Design Principles: Introduction to the Responsive Web Design Challenge
+### Responsive Web Design Principles: Introduction to the Responsive Web Design Challenge
+
 https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-principles
 
 ## Useful links
