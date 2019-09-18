@@ -1,0 +1,10 @@
+.footer {
+  padding: 16px 0;
+  background: $color-dark;
+  color: $color-light;
+
+  &--info {
+    display: flex;
+    justify-content: space-between;
+  }
+}

@@ -67,4 +67,8 @@ https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-princ
 ## Useful links
 
 https://www.w3schools.com/Css/css_rwd_mediaqueries.asp
+<<<<<<< HEAD
 https://css-tricks.com/css-media-queries/
+=======
+https://css-tricks.com/css-media-queries/
+>>>>>>> 26ee919... add responsive css code & comments for the day 4 lesson

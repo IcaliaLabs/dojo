@@ -1,0 +1,20 @@
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+
+.separation {
+  &--top {
+    display: block;
+    margin-top: $separation;
+  }
+
+  &--top-m {
+    margin-top: $separation-m;
+  }
+
+  &--top-l {
+    margin-top: $separation-l;
+  }
+}

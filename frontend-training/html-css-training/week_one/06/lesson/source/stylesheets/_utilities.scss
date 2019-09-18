@@ -1,0 +1,85 @@
+//MEDIA QUERY
+
+.hide--on {
+  &-big {
+    display: none;
+  }
+  
+  &-small {
+    display: block;
+  }
+
+}
+
+.toggle {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  
+  .hide--on {
+    &-small {
+      display: none;
+    }
+  
+    &-big {
+      display: block;
+    }
+  }
+  
+  .toggle:checked ~ .menu-big {
+    display: block;
+    width: 100%;
+  }
+
+  .menu {
+    font-size: 20px;
+
+    &--mobile {
+      cursor: pointer;
+    }
+  
+    &-link {
+      display: block;
+      text-align: center;
+      padding: 30px 0;
+      box-sizing: border-box;
+
+      &:hover {
+        background-color: $color-primary-darken;
+      }
+    }
+  
+  }
+
+
+  .dojo--card {
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+  }
+
+  table {
+    font-size: 13px;
+  }
+
+  th:not(:first-child),
+  td:not(:first-child) {
+    padding-left: 15px;
+  }
+
+  .button {
+    width: 100%;
+  }
+ }
+
+ @media only screen and (min-width: 2500px) {
+   body {
+     width: 70%;
+     margin: auto;
+   }
+
+   .container--big {
+    width: 70%;
+   }
+ }

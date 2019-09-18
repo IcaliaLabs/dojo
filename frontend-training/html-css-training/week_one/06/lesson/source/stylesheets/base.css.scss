@@ -1,0 +1,58 @@
+//CSS folder Architecture
+
+/*
+In this lesson we will divide correctly the bases.scss file from the day05 so it's more readable.
+*/
+
+//vendor
+/* 
+Here it goes all the externals stylesheets that you need, could be frameworks, plugins, 
+libraries, etc.
+
+It goes first becuase vendor stylesheets are the first step on the cascade system so it can be 
+overwriten if needed.
+*/
+
+//settings
+/*
+Here it goes the main files needed for run the styles, for example here goes three very 
+important files, because of the importance of these files they must go second.
+*/
+@import 'settings/resets'; /* when vendors doesn't have resets for the elements default values */
+@import 'settings/variables'; /* File with all the variables of the project. */
+@import 'settings/typography'; /*  We locate all code relating to text, fonts, titles and other typography related rules. */
+@import 'settings/functions'; /* We locate here the functions and mixins of the project. */
+
+//elements
+/*
+Here it goes all the “single” elements (think like an single atom of a component), 
+for example a button, an “avatar”.
+
+Elements should be the third option cause it's lees specific than pages or shame
+*/
+@import 'elements/header';
+@import 'elements/footer';
+@import 'elements/button';
+@import 'elements/input';
+@import 'elements/layouts';
+
+//pages
+/*
+Here it goes the specific styles need for tweak things in specific pages, for example 
+if you need to separate to specific buttons with and specific _page-name.scss.
+
+Pages are the fourth because these will be styles that only will be used on a specific page
+*/
+@import 'pages/home';
+
+//utilities
+@import 'utilities';
+
+//shame
+/*
+Here it goes all the styles that needed the !important declaration or another form of overwrite.
+
+Shame it's the most specific because the !important declaration and the overwrite 
+that this coudl do
+*/
+@import 'shame';

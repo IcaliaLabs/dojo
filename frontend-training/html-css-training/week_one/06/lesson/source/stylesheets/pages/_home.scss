@@ -1,0 +1,80 @@
+.banner {
+  box-sizing: border-box;
+  height: 93vh;
+  margin-top: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+//NAMING & COMPOUND SELECTORS
+/*
+As button css file we are seeing compound selectors that with SASS help us to group similar styles
+and name it depending on the element, block or group and then a description of the class.
+
+For the proper naming of classes we follow certain rules:
+1. Unique, meaningful names for a logical unit of style. Avoid excessive shorthand.
+  Example:
+    Good: .alert-box or .recents-intro or .button
+    Bad: .feature or .content or .btn
+
+2. Don't create a class name larger than three levels. The same thing with nesting we shouldn't
+have classes larger than three leves.
+  Example:
+    Good: .dojo--card-header
+    Bad: .dojo--card-header-primary
+*/
+.dojo {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  &--info {
+    padding-top: 62px;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  
+  &--card {
+    box-sizing: border-box;
+    border: 1px solid $color-card-border; 
+    border-radius: 4px;
+    background: $color-card-body;
+  }
+  
+  &--card-header {
+    text-align: center;
+    background: $color-light;
+    border-bottom: 1px solid $color-card-border;
+    padding: 15px 30px;
+  }
+  
+  &--card-body {
+    padding: 15px 30px;
+  }
+  
+  &--list ol {
+    padding-left: 17px;
+  }
+}
+
+.icon {
+  font-size: 40px;
+  color: $color-primary-darken;
+}
+
+.contact {
+  &--box {
+    padding: 32px 0;
+    background-image: image-url('marvin-meyer-SYTO3xs06fU-unsplash.jpg'), linear-gradient( rgba($color-primary , 0.8 ) , rgba($color-primary-darken, 0.8));
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $color-light;
+    background-blend-mode: darken;
+  }
+  
+  &--title {
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,14 @@
+.text {
+  &-bold {
+    font-weight: 700;
+  }
+  
+  &--color-secondary {
+    color: $color-primary;
+  }
+}
+
+.link:hover,
+.link:active {
+  color: $color-primary-darken;
+}

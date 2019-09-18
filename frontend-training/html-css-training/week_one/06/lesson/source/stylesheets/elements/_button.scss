@@ -1,0 +1,25 @@
+/*Buttons are the perfect way to explain nesting and the correct usage of class naming here 
+we have a class called .button with all the basic caracteristics of a default button */
+.button {
+  padding: 16px 32px;
+  border: 0;
+  border-radius: 4px;
+  background: $color-dark;
+  color: $color-light;
+  font-size: 16px;
+  /*Here nested inside .button there is a :hover rule that in css will read .button:hover*/
+  &:hover {
+    background:#000;
+  }
+
+  /* the nesting can also group different iteration of the button for example a different kind
+   of button */
+  /*this will read button-pill and in html you can add to the button element with the class
+  class="button button-pill" 
+  notice that we are using both classes the button class to give the default button values 
+  and then button-pill to give the element the modification of the border-radius, we can use this
+  for different colors, different type of buttons, etc. */
+  &-pill {
+    border-radius: 100px;
+  }
+}
