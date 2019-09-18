@@ -1,0 +1,24 @@
+/*
+This site.css.scss whit SASS a css file can be separated with partial files and the @import
+option 
+*/
+
+/* Partials */
+/* 
+Partial files are files that contain snippet of CSS to make a sass stylesheet easier to read
+and to organize, partials files are declared with an underscore '_partialname.scss' this way the
+compiler knows that the file is part of another .css file and doesn't create a separate .css file
+*/
+
+/* Imports */
+/*
+To use a partial file you need to declare it whit a @import option, the syntax of the import is
+@import 'filename'; import only needs the file name whitout the underscore and the file extension.
+
+An important thing to remember it's that Cascade system still be working with the the partial files
+and the order that you place the variables is very important.
+*/
+
+@import 'variables'; /* this partial file define SASS variables more info on the file */
+@import 'base'; /* this partial file has the general code */
+@import 'mediaquery'; /* this partial file has the code for the media queries */

@@ -1,0 +1,14 @@
+/* VARIABLES */
+/* with SASS you can use variables, with variables you can store values that can be reused 
+this helps to change a value that it's being used in many rules without changing it on every 
+single rule. example: colors, fonts, px for separations */
+/* to declare a variable the $ symbol it's needed like this $variable-name: value; */
+$color-primary: #e80039;
+$color-primary-darken: #cc093a;
+$color-light: #fff;
+$color-card-body: #f3f3f3;
+$color-card-border: #ececec;
+$color-dark: #0e0d0d;
+$separation: 16px;
+$separation-m: 24px;
+$separation-l: 64px;
