@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+  list-style: none; 
+}
+
+ol {
+  list-style-position: inside;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+.menu {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 0;
+  background-color: #e80039;
+  color: #fff;
+  font-weight: 700;
+}
+
+.menu a {
+  margin-right: 16px;
+}
+
+.banner {
+  box-sizing: border-box;
+  height: 93vh;
+  margin-top: 7vh;
+  /* in the other css, it was center with a class and using positioning in this stylesheet flexbox model it's being used to center
+    the selector and it's children  */ 
+  display: flex;
+  justify-content: center; /* The CSS justify-content property defines how the browser distributes space between and around content items along the main-axis of a flex container, and the inline axis of a grid container. */
+  align-items: center; /* The CSS align-items property sets the align-self value on all direct children as a group. In Flexbox, it controls the alignment of items on the Cross Axis. */
+  text-align: center;
+}
+
+.separation--top {
+  display: block;
+  margin-top: 16px;
+}
+
+.separation--top-m {
+  margin-top: 24px;
+}
+
+.separation--top-l {
+  margin-top: 62px;
+}
+
+/* Here instead of giving percentage widths and not defined heights, instead displaay flex and justify content of space between
+space between separete the child elements of the selector around all the width evenly */
+
+.dojo {
+  display: flex;
+  justify-content: space-between; /* The justify-content property aligns the flexible container's items when the items do not use all available space on the main-axis (horizontally by default). */
+  /* space between items are positioned with space between the lines */
+}
+
+.dojo--info {
+  padding-top: 62px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+
+.dojo--card {
+  box-sizing: border-box;
+  border: 1px solid #ececec; 
+  border-radius: 4px;
+  background: #f3f3f3;
+}
+
+.dojo--card-header {
+  text-align: center;
+  background: #fff;
+  border-bottom: 1px solid #ececec;
+  padding: 15px 30px;
+}
+
+.dojo--card-body {
+  padding: 15px 30px;
+}
+
+.dojo--list ol {
+  padding-left: 17px;
+}
+
+table {
+  width: 100%;
+  text-align: left;
+}
+
+th:not(:first-child),
+td:not(:first-child) {
+  padding-left: 30px;
+}
+
+
+.text-bold {
+  font-weight: 700;
+}
+
+.text--color-secondary {
+  color: #e80039;
+}
+
+.link:hover,
+.link:active {
+  color: #cc093a;
+}
+
+.footer {
+  padding: 16px 0;
+  background: #0e0d0d;
+  color: #fff;
+}
+
+.footer--info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact--box {
+  padding: 32px 0;
+  background-image: url(./images/marvin-meyer-SYTO3xs06fU-unsplash.jpg), linear-gradient(#e80039,#e80039); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  background-blend-mode: darken;
+  filter: contrast(70%);
+}
+
+.contact--title {
+  font-size: 24px;
+}
+
+.input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px;
+  border: 0;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.button {
+  padding: 16px 32px;
+  border: 0;
+  border-radius: 4px;
+  background: #0e0d0d;
+  color: #fff;
+  font-size: 16px;
+}
+
+.icon {
+  font-size: 40px;
+  color: #cc093a;
+}
