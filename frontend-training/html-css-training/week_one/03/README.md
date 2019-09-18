@@ -4,13 +4,13 @@ DAY 3 - FLEXBOX & LAYOUTS
 
 After this stage the trainee should be able to:
 
-+ Understand what the display flex property.
++ Understand what the display flex property is.
 + Learn all the properties that depend on the flex property and their uses.
-+ Understand basic layouts for different kind of elements like navs, blogs, sidebars, cards using flex.
++ Understand basic layouts for different kind of elements like navgations, blogs, sidebars and cards using flex.
 
  ## Lesson
 
-This lesson consists of an introduction to flex to understand the basic principles of the property and the other properties that work with flex and to use basic design layouts that are basic UI for most websites.
+This lesson consists as an introduction to understand the basic principles of flex along with other properties that work with it and also to create basic design UI layouts to create most websites.
 
 + Explain and demo:
   + Display: `flex`
@@ -47,12 +47,15 @@ Check out the [practice/](practice/) subdirectory in this directory, which you c
 ## Self Study
 
 ## What the flexbox
+
 https://flexbox.io/
 
-##Flexfroggy
+## Flexfroggy
+
 https://flexboxfroggy.com/
 
 ## Useful Links
+
 https://www.flexboxpatterns.com
 https://developer.mozilla.org/en-US/docs/Web/CSS/flex
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
