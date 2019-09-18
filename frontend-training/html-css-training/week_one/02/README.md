@@ -66,7 +66,6 @@ Check out the [practice/](practice/) subdirectory in this directory, which you c
 Complete the following sections of the [Codecademy Introduction to CSS course](https://www.codecademy.com/learn/learn-css):
 
 + **Section 1 - Learn CSS**
-
  + Interactive Lesson 1: [ Learn CSS: Selectors and Visual Rules] (https://www.codecademy.com/learn/learn-css/modules/learn-css-selectors-visual-rules)    
  + Interactive Lesson 2: [ Learn CSS: Box Models] (https://www.codecademy.com/learn/learn-css/modules/learn-css-box-model)
  + Interactive Lesson 3: [Learn CSS: displays and Position] (https://www.codecademy.com/learn/learn-css/modules/learn-css-display-positioning)
