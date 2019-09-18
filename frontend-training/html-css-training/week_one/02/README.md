@@ -5,16 +5,17 @@
 After this training stage the trainee should be able to:
 
 + Correctly utilize the basic declarations of the Cascading Style Sheet (CSS).
-+  Write CSS code to style simple web pages.
++ Write CSS code to style simple web pages.
 + Understand the usage of the box model
-+ Lear how to setup a css file on an index.htlm using the link element.
++ Learn how to setup a css file on an index.html using the link element.
 + Understand how to use different types of selectors `tags`,`class`, `id`.
 + Understand the specificity and how it affects the cascade system.
+
 ## Lesson
 
-This lesson consists of a detailed exploration of the CSS syntax, selectors declarations and their correct use.
+This lesson consists of a detailed exploration for the CSS syntax, selectors declarations and their correct use.
 
-+ Demonstrate of a CSS file and how to link it with a HTML page.
++ Show a CSS file and how to link it with a HTML page.
 + Explain and demo:
   + Displays: `inline`, `block`, `inline-block`, `none`, `flex`, `grid`
   + Positions: `static`, `relative`, `absolute`, `fixed`, `sticky`
@@ -33,7 +34,7 @@ Each trainee will practice the previously covered theory by writing CSS code acc
 
 ### Web Developer Portfolio
 
-In this exercise, you will continue to create your own web developer portfolio by writing add the css style to the HTML markup of day 01.
+In this exercise, you will continue to create your own web developer portfolio by adding the css style to the HTML markup of day 1.
 
 *For this exercise, only the structure is mandatory. Copy (content text) placeholders (Lorem Ipsum for text, placehold.it for images) may be used.*
 
@@ -65,6 +66,7 @@ Check out the [practice/](practice/) subdirectory in this directory, which you c
 Complete the following sections of the [Codecademy Introduction to CSS course](https://www.codecademy.com/learn/learn-css):
 
 + **Section 1 - Learn CSS**
+
  + Interactive Lesson 1: [ Learn CSS: Selectors and Visual Rules] (https://www.codecademy.com/learn/learn-css/modules/learn-css-selectors-visual-rules)    
  + Interactive Lesson 2: [ Learn CSS: Box Models] (https://www.codecademy.com/learn/learn-css/modules/learn-css-box-model)
  + Interactive Lesson 3: [Learn CSS: displays and Position] (https://www.codecademy.com/learn/learn-css/modules/learn-css-display-positioning)
