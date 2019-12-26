@@ -24,6 +24,8 @@ In order to be successful while training for Backend using the Dojo guides we pr
 
 We provide a list of necessary software you need to install before starting your training.
 
+**Even though we use Docker for all of our current development process, we do not offer any support or guides regarding windows, that is why we highly recomment you to install a linux distribution, whether using a virtual machine or a partition.**
+
 <ul>
   <li><strong>UNIX based operating system:</strong></li>
   <ul>
