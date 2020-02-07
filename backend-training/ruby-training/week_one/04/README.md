@@ -60,9 +60,13 @@ Parsing a remote README file from a public GitHub repository and saving it as an
 
 Create Ruby classes to represent and contain the data served in each of the following JSON API endpoints:
 
-+ `http://sepomex.icalialabs.com/api/v1/zip_codes/`
-+ `http://sepomex.icalialabs.com/api/v1/states/`
-+ `http://sepomex.icalialabs.com/api/v1/cities/`
++ `https://restcountries.eu/rest/v2/all` - ([Docs](https://restcountries.eu/#api-endpoints-all)) 
+
++ `https://pokeapi.co/api/v2/pokemon` - ([Docs](https://pokeapi.co/docs/v2.html/#pokemon-section)) 
+
++ `https://pokeapi.co/api/v2/location` - ([Docs](https://pokeapi.co/docs/v2.html/#locations-section)) 
+
+
 
 *Tip: The `/endpoint/` (last part of the URI) should give you a clue as to how to name each class or what each set of attributes represents.*
 

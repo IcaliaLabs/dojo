@@ -51,7 +51,7 @@ Based on the [sales.csv](sales.csv) file, create the necessary Ruby classes and 
 4. Most common day that people buy
 5. Total sales
 
-Each class must use the CSV module/gem to parse the raw CSV content into a native Ruby format. Choose a format (data structure or data type) that is useful to perform the necessary processing and calculations in order to produce the reportes mentioned above.
+Each class must use the CSV module/gem to parse the raw CSV content into a native Ruby format. Choose a format (data structure or data type) that is useful to perform the necessary processing and calculations in order to produce the reports mentioned above.
 
  **Some classes that you may or not need are:**
 
