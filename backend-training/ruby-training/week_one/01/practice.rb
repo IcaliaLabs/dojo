@@ -27,4 +27,4 @@ puts "#{developer[:name]} is a developer of #{developer[:age]} years old with #{
 
 # Your script ends here
 
-puts developers.inspect
+puts developer.inspect
