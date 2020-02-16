@@ -85,8 +85,12 @@ listado_alumnos.each do |alumno|
   email_alumno = alumno[:email]
 
   puts prepararCorreoElectronico(nombre_alumno, email_alumno, revisores)
+
+  write_to "#{nombre_alumno}.txt" do |file|
+    file.write "Hi,#{nombre_alumno} \n"
+  end
 end
-end
+
 
 # Ejecutar metodo - Mandar emails
 mandarEmailsDeListado(REVIEWEES)
