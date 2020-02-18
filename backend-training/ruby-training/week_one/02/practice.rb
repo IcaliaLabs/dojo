@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Write a script to set up core reviews for all reviewees
 # Rules are:
 # 1. 2 random reviewers per reviewee
@@ -19,81 +21,90 @@
 ## Your reviewers are Walter and Vov
 
 REVIEWERS = [
-  { name: "Walter" },
-  { name: "Vov" },
-  { name: "Cejas" },
-  { name: "Kuri" },
-  { name: "Sherwell" },
-]
+  { name: 'Walter' },
+  { name: 'Vov' },
+  { name: 'Cejas' },
+  { name: 'Kuri' },
+  { name: 'Sherwell' }
+].freeze
 
 REVIEWEES = [
-  { name: "Barbara", email: "bmbrina@icalialabs.com" },
-  { name: "Hector", email: "hector@icalialabs.com" },
-  { name: "Kevin", email: "kevin@icalialabs.com" },
-  { name: "Julian", email: "julz@icalialabs.com" },
-  { name: "Luis Gerardo", email: "gvaldez@icalialabs.com" },
-  { name: "Cesar Nava", email: "cnava@icalialabs.com" },
-]
+  { name: 'Barbara', email: 'bmbrina@icalialabs.com' },
+  { name: 'Hector', email: 'hector@icalialabs.com' },
+  { name: 'Kevin', email: 'kevin@icalialabs.com' },
+  { name: 'Julian', email: 'julz@icalialabs.com' },
+  { name: 'Luis Gerardo', email: 'gvaldez@icalialabs.com' },
+  { name: 'Cesar Nava', email: 'cnava@icalialabs.com' }
+].freeze
 
 ## Your script starts here
 
 REVIEWERS = [
-  { name: "Walter" },
-  { name: "Vov" },
-  { name: "Cejas" },
-  { name: "Kuri" },
-  { name: "Sherwell" },
-]
+  { name: 'Walter' },
+  { name: 'Vov' },
+  { name: 'Cejas' },
+  { name: 'Kuri' },
+  { name: 'Sherwell' }
+].freeze
 
 REVIEWEES = [
-{ name: "Barbara", email: "bmbrina@icalialabs.com" },
-{ name: "Hector", email: "hector@icalialabs.com" },
-{ name: "Kevin", email: "kevin@icalialabs.com" },
-{ name: "Julian", email: "julz@icalialabs.com" },
-{ name: "Luis Gerardo", email: "gvaldez@icalialabs.com" },
-{ name: "Cesar Nava", email: "cnava@icalialabs.com" },
-]
+  { name: 'Barbara', email: 'bmbrina@icalialabs.com' },
+  { name: 'Hector', email: 'hector@icalialabs.com' },
+  { name: 'Kevin', email: 'kevin@icalialabs.com' },
+  { name: 'Julian', email: 'julz@icalialabs.com' },
+  { name: 'Luis Gerardo', email: 'gvaldez@icalialabs.com' },
+  { name: 'Cesar Nava', email: 'cnava@icalialabs.com' }
+].freeze
 
-# Devuelve aleatoriamente una cantidad de elementos de los datos
-def delvolverRevisores(cantidad, listado)
-seleccionados = []
-
-while seleccionados.size < cantidad do
-  index = rand(listado.size)
-  seleccionados << listado[index]
-  seleccionados.uniq!
+def write_to(filename = 'tmp.txt')
+  file = File.new(filename, 'w')
+  file.write "---\n"
+  yield(file) if block_given?
+  file.write '---'
+  file.close
 end
 
-seleccionados
+# Devuelve aleatoriamente una cantidad de elementos de los datos
+def delvolver_revisores(cantidad, listado)
+  seleccionados = []
+
+  while seleccionados.size < cantidad
+    index = rand(listado.size)
+    seleccionados << listado[index]
+    seleccionados.uniq!
+  end
+
+  seleccionados
 end
 
 # Devuelve el texto del email
-def prepararCorreoElectronico(nombre, email, revisores)
-"E-mail to: #{email}
-        Body:
+def preparar_correo_electronico(nombre, email, revisores)
+  "E-mail to: #{email}
+          Body:
 
-        Hi, #{nombre}.
-        Your reviewers are #{revisores[0][:name]} and #{revisores[1][:name]}.
-        "
+          Hi, #{nombre}.
+          Your reviewers are #{revisores[0][:name]} and #{revisores[1][:name]}.
+          "
 end
 
 # Imprime el email
-def mandarEmailsDeListado(listado_alumnos)
-listado_alumnos.each do |alumno|
-  revisores = delvolverRevisores(2, REVIEWERS)
-  nombre_alumno = alumno[:name]
-  email_alumno = alumno[:email]
+def emails_list(listado_alumnos)
+  listado_alumnos.each do |alumno|
+    revisores = delvolver_revisores(2, REVIEWERS)
+    nombre_alumno = alumno[:name]
+    email_alumno = alumno[:email]
 
-  puts prepararCorreoElectronico(nombre_alumno, email_alumno, revisores)
+    puts preparar_correo_electronico(nombre_alumno, email_alumno, revisores)
 
-  write_to "#{nombre_alumno}.txt" do |file|
-    file.write "Hi,#{nombre_alumno} \n"
+    write_to "#{nombre_alumno}.txt" do |file|
+      file.write "  E-mail to: #{email_alumno} \n"
+      file.write "  Body: \n"
+      file.write "  Hi,#{nombre_alumno} \n"
+      file.write "  Your reviewers are #{revisores.first[:name]} and #{revisores.last[:name]}. \n"
+      file.write "  Sent at: #{Time.now}\n"
+    end
   end
 end
 
-
 # Ejecutar metodo - Mandar emails
-mandarEmailsDeListado(REVIEWEES)
-
-
-## Your script ends here
+emails_list(REVIEWEES)
