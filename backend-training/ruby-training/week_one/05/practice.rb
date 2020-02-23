@@ -20,102 +20,84 @@ puts countries_content.count 'a'
 # Transaction
 # Product
 # PaymentType
-#
-#The class names above are just simple examples, but you can use other ones
+
+# The class names above are just simple examples, but you can use other ones
 require 'csv'
+require 'date'
 
-class Report
-  def self.read_file
-    relative_path_to_file = 'sales.csv'
+module CsvParser
+  FILENAME = 'sales.csv'
 
-    CSV.foreach(relative_path_to_file, headers: true) do |row|
-      puts row
+  def hash_by_column(column_name)
+    hash_result = {}
+
+    CSV.foreach(FILENAME, headers: true) do |row|
+      hash_key = row[column_name]
+      value = hash_result[hash_key] || 0
+
+      hash_result[hash_key] || hash_result[hash_key] = 0
+      hash_result[hash_key] = value + 1
     end
+
+    hash_result
   end
 
-  def self.total_of_sales
-    sales = {}
-
-    relative_path_to_file = 'sales.csv'
-
-    CSV.foreach(relative_path_to_file, headers: true) do |row|
-      product_name = row['Product']
-
-      if sales.key?(product_name)
-        current_value = sales[product_name]
-        sales[product_name] = current_value + 1
-      else
-        sales[product_name] = 1
-      end
-    end
-    sales
-  end
-
-  def self.most_used_credit
-    sales = {}
-    relative_path_to_file = 'sales.csv'
-
-    CSV.foreach(relative_path_to_file, headers: true) do |row|
-      payment_type = row['Payment_Type']
-
-      if sales.key?(payment_type)
-        current_value = sales[payment_type]
-        sales[payment_type] = current_value + 1
-      else
-        sales[payment_type] = 1
-      end
-    end
-    sales.max.first
-  end
-
-  def self.most_day_buy
-    sales = {}
-    relative_path_to_file = 'sales.csv'
-
-    CSV.foreach(relative_path_to_file, headers: true) do |row|
-      day = row['Transaction_date']
-
-      if sales.key?(day)
-        current_value = sales[day]
-        sales[day] = current_value + 1
-      else
-        sales[day] = 1
-      end
-    end
-    sales.max.first[0, 6]
-  end
-
-  def self.most_countries_transactions
-    sales = {}
-    relative_path_to_file = 'sales.csv'
-
-    CSV.foreach(relative_path_to_file, headers: true) do |row|
-      country = row['Country']
-
-      if sales.key?(country)
-        current_value = sales[country]
-        sales[country] = current_value + 1
-      else
-        sales[country] = 1
-      end
-    end
-    sales.max.first
-  end
-
-  def self.total_transaction
-    total_of_rows = 0
-    relative_path_to_file = 'sales.csv'
-
-    CSV.foreach(relative_path_to_file, headers: true) do |_row|
-      total_of_rows += 1
-    end
-
-    total_of_rows
+  def max_value(content)
+    content.max.first
   end
 end
 
-puts "Total sales for each different product:#{Report.total_of_sales}"
-puts "Most used credit card handler: #{Report.most_used_credit}"
-puts "Country with most transactions: #{Report.most_countries_transactions}"
-puts "Most common day that people buy: #{Report.most_day_buy}"
-puts "Total sales: #{Report.total_transaction}"
+module DateParser
+  def parse_to_day(date)
+    DateTime.strptime(date, '%m/%e/%y %H:%M').strftime('%A')
+  end
+end
+
+class Hash
+  def to_text
+    text = []
+    each do |key, value|
+      text << "#{key} with #{value}"
+    end
+    text.join(', ')
+  end
+end
+
+class Report
+  include CsvParser
+  include DateParser
+
+  def total_of_sales
+    file_content = hash_by_column('Product')
+    file_content.to_text
+  end
+
+  def most_used_credit
+    file_content = hash_by_column('Payment_Type')
+    max_value(file_content)
+  end
+
+  def country_with_most_transactions
+    file_content = hash_by_column('Country')
+    max_value(file_content)
+  end
+
+  def day_with_most_sales
+    file_content = hash_by_column('Transaction_date')
+    date = max_value(file_content)
+    parse_to_day(date)
+  end
+
+  def total_transactions
+    file_content = hash_by_column('Products')
+    file_content.values.first
+  end
+end
+
+report = Report.new
+
+puts "Total sales for each different product: #{report.total_of_sales}"
+puts "Most used credit card handler: #{report.most_used_credit}"
+puts "Country with most transactions: #{report.country_with_most_transactions}"
+puts "Most common day that people buy: #{report.day_with_most_sales}"
+puts "Total sales: #{report.total_transactions}"
