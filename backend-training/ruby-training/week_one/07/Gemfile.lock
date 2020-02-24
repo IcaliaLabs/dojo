@@ -1,15 +1,61 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    github-markup (1.6.2)
-    rack (2.0.8)
+    addressable (2.7.0)
+      public_suffix (>= 2.0.2, < 5.0)
+    domain_name (0.5.20190701)
+      unf (>= 0.0.5, < 1.0.0)
+    faraday (1.0.0)
+      multipart-post (>= 1.2, < 3)
+    github (0.7.2)
+      highline (~> 1.6)
+      json_pure (~> 1.5.1)
+      launchy (~> 2.0.2)
+      text-format (= 1.0.0)
+      text-hyphen (= 1.0.0)
+    github-markup (3.0.4)
+    highline (1.7.10)
+    http-accept (1.7.0)
+    http-cookie (1.0.3)
+      domain_name (~> 0.5)
+    json_pure (1.5.5)
+      spruz (~> 0.2.8)
+    launchy (2.0.3)
+    mime-types (3.3.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2019.1009)
+    multipart-post (2.1.1)
+    netrc (0.11.0)
+    octokit (4.16.0)
+      faraday (>= 0.9)
+      sawyer (~> 0.8.0, >= 0.5.3)
+    public_suffix (4.0.3)
+    rack (2.2.2)
+    rest-client (2.1.0)
+      http-accept (>= 1.7.0, < 2.0)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 4.0)
+      netrc (~> 0.8)
+    sawyer (0.8.2)
+      addressable (>= 2.3.5)
+      faraday (> 0.8, < 2.0)
+    spruz (0.2.13)
+    text-format (1.0.0)
+      text-hyphen (~> 1.0.0)
+    text-hyphen (1.0.0)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.6)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-markup
-  rack
+  github (~> 0.7.2)
+  github-markup (~> 3.0, >= 3.0.4)
+  octokit (~> 4.0)
+  rack (~> 2.2, >= 2.2.2)
+  rest-client (~> 2.1)
 
 BUNDLED WITH
-   1.14.5
+   2.1.4
