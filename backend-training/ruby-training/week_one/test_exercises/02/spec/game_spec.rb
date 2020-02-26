@@ -7,7 +7,7 @@ describe 'GameFizzBuzz' do
   let(:game) { GameFizzBuzz.new }
 
   it 'returns Fizz ' do
-    expect(game.play_fizzbuzz(9)).to eql 'Fizz'
+    expect(game.play_fizzbuzz(11)).to eql 'Fizz'
   end
   it 'returns Buzz ' do
     expect(game.play_fizzbuzz(25)).to eql 'Buzz'
