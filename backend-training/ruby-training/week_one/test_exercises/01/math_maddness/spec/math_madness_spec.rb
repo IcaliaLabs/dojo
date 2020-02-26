@@ -4,23 +4,21 @@ require 'spec_helper'
 require_relative '../math_operations.rb'
 
 describe 'MathOperations' do
+  let(:math) { MathOperations.new }
+
   it 'returns a right addition' do
-    math = MathOperations.new(2, 3)
-    expect(math.addition).to eql 5
+    expect(math.addition(2, 3)).to eql 5
   end
 
   it 'returns a right subtraction' do
-    math = MathOperations.new(5, 3)
-    expect(math.subtraction).to eql 2
+    expect(math.subtraction(5, 3)).to eql 2
   end
 
   it 'returns a right multiplication' do
-    math = MathOperations.new(10, 3)
-    expect(math.multiplication).to eql 30
+    expect(math.multiplication(10, 3)).to eql 30
   end
 
   it 'returns a right division' do
-    math = MathOperations.new(18, 3)
-    expect(math.division).to eql 6
+    expect(math.division(18, 3)).to eql 6
   end
 end
