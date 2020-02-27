@@ -20,10 +20,17 @@ describe 'StringCalculator' do
 
   it 'returns the sum if the string number contains two numbers or more' do
     expect(string_number.int_add('1, 2, 3, 4')).to eql 10
-    expect(string_number.int_add('1, 2, 3, 4, 5')).to eql 15
   end
 
   it 'returns the sum if the string number contains numbers and characters ' do
     expect(string_number.int_add('1\n2,3')).to eql 6
+  end
+
+  it 'returns the sum if the string number contains delimiter in the begin' do
+    expect(string_number.int_add('//;\n1;2')).to eql 3
+  end
+
+  it 'returns the sum if the string number contains delimiter in the begin' do
+    expect(string_number.int_add('//;\n1;20')).to eql 21
   end
 end
