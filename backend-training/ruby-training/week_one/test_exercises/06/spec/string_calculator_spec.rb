@@ -17,4 +17,9 @@ describe 'StringCalculator' do
   it 'returns the sum if the string number contains two numbers ' do
     expect(string_number.int_add('1,2')).to eql 3
   end
+
+  it 'returns the sum if the string number contains two numbers or more' do
+    expect(string_number.int_add('1, 2, 3, 4')).to eql 10
+    expect(string_number.int_add('1, 2, 3, 4, 5')).to eql 15
+  end
 end
