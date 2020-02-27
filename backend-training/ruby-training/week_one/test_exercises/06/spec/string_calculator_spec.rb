@@ -33,4 +33,12 @@ describe 'StringCalculator' do
   it 'returns the sum if the string number contains delimiter in the begin' do
     expect(string_number.int_add('//;\n1;20')).to eql 21
   end
+
+  #   it 'returns an exception Negatives not allowed  ' do
+  #     expect(string_number.int_add('1,2,-3')).to raise_error('Negatives not allowed: -3')
+  #   end
+
+  it 'returns the sum but the numbers bigger than 1000 should be ignored' do
+    expect(string_number.int_add('1,2,3333333,1')).to eql 5
+  end
 end
