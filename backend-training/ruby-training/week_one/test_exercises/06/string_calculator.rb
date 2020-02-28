@@ -1,11 +1,26 @@
 # frozen_string_literal: true
 
 class StringCalculator
-  def int_add(string_numbers)
-    return 0 if string_numbers.empty?
+  def int_add(string)
+    return 0 if string.empty?
 
-    numbers = string_numbers.split(/[^0-9-]+/).map(&:to_i)
+    numbers = to_numbers(string)
+    numbers_classified = numbers_classification(numbers)
+    positives = numbers_classified.first
+    negatives = numbers_classified.last
 
+    unless negatives.empty?
+      raise ArgumentError, "Negatives not allowed: #{negatives.join(',')}"
+    end
+
+    positives.inject(0) { |sum, x| x <= 1000 ? sum + x : sum + 1 }
+  end
+
+  def to_numbers(string_numbers)
+    string_numbers.split(/[^0-9-]+/).map(&:to_i)
+  end
+
+  def numbers_classification(numbers)
     negatives = []
     positives = []
 
@@ -16,11 +31,6 @@ class StringCalculator
         negatives << number
       end
     end
-
-    unless negatives.empty?
-      raise ArgumentError, "Negatives not allowed: #{negatives.join(',')}"
-    end
-
-    positives.inject(0) { |sum, x| x <= 1000 ? sum + x : sum + 1 }
+    [positives, negatives]
   end
 end
