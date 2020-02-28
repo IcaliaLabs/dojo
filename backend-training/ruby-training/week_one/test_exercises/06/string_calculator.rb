@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# This class creates a calculator of numbers in a string
 class StringCalculator
   def int_add(string)
     return 0 if string.empty?
