@@ -25,12 +25,9 @@ class StringCalculator
     positives = []
 
     numbers.each do |number|
-      if number >= 0
-        positives << number
-      else
-        negatives << number
-      end
+      number >= 0 ? positives << number : negatives << number
     end
+
     [positives, negatives]
   end
 end
