@@ -2,7 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     github-markup (1.6.2)
-    rack (2.0.8)
+    rack (2.1.4)
 
 PLATFORMS
   ruby
